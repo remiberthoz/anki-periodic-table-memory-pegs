@@ -45,6 +45,7 @@ model = genanki.Model(
             {'name': 'Memory sentence'},
             {'name': 'SpecialLocation'},
             ],
+        sort_field_number=3,
         templates=[
             {
                 'name': 'Card 1',
@@ -85,8 +86,7 @@ for elt in elements:
 
     note = genanki.Note(
             model=model,
-            fields=[media_html, name, number, symbol, phrase_html, ''],
-            sort_field=2)
+            fields=[media_html, name, number, symbol, phrase_html, ''])
     note.guid = guid
 
     deck.add_note(note)
