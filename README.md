@@ -32,11 +32,11 @@ There is also an explanation of how to use the pictures as memory pegs.
 
 ### Getting started
 
-The up-to-date deck is not released to AnkiWeb yet,
-but the legacy version is available on the
+The latest release is available on Ankiweb
 [shared deck page](https://ankiweb.net/shared/info/490209917).
 
-If you want to use the latest version, you can download this git repository
+If you want to use the work-in-progress version to the next release,
+you can download this git repository
 and execute the `main.py` script to build the deck
 (`packages/periodic-table-memory-pegs.apkg`),
 import it in Anki and you're ready to go!
