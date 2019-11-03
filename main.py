@@ -93,4 +93,4 @@ for elt in elements:
 
 package = genanki.Package(deck)
 package.media_files = medias
-package.write_to_file('output.apkg')
+package.write_to_file('packages/periodic-table-memory-pegs.apkg')
