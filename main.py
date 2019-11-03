@@ -13,6 +13,7 @@ card2 = None
 card3 = None
 card4 = None
 elements = None
+version = None
 
 with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card_back.html') as CARD_BACK, \
@@ -20,7 +21,8 @@ with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card2_front.html') as CARD2, \
     open('src/templates/card3_front.html') as CARD3, \
     open('src/templates/card4_front.html') as CARD4, \
-    open('src/data.json') as DATA:
+    open('src/data.json') as DATA, \
+    open('version.txt') as VERSION:
 
         css = CSS.read()
         card_back = CARD_BACK.read()
@@ -29,6 +31,7 @@ with open('src/templates/stylesheet.css') as CSS, \
         card3 = CARD3.read()
         card4 = CARD4.read()
         elements = json.load(DATA)
+        version = VERSION.readline().strip()
 
 deck = genanki.Deck(
         deck_id=490209917,
@@ -93,4 +96,4 @@ for elt in elements:
 
 package = genanki.Package(deck)
 package.media_files = medias
-package.write_to_file('packages/periodic-table-memory-pegs.apkg')
+package.write_to_file('packages/periodic-table-memory-pegs_{}.apkg'.format(version))
