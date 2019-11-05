@@ -32,7 +32,7 @@ There is also an explanation of how to use the pictures as memory pegs.
 
 ### Getting started
 
-The latest release is available on Ankiweb
+The latest release is available on AnkiWeb
 [shared deck page](https://ankiweb.net/shared/info/490209917).
 
 If you want to use the work-in-progress version to the next release,
@@ -58,7 +58,7 @@ to let me know!
 
 #### Legacy deck
 
-Before existing on Github,
+Before existing on GitHub,
 this deck was created and shared on the AnkiWeb platform.
 Since the latter lacks contribution features, it has been suggested to me
 that I could release it here as a git repository.
