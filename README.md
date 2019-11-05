@@ -3,7 +3,7 @@
 **Chemical elements flashcard deck for [Anki](https://apps.ankiweb.net/)**,
 currently featuring the first 104 elements of the periodic table,
 to help you memorize and associate name, atomic number and symbol of
-elements in the Periodic Table.
+elements.
 
 ### How it works
 
