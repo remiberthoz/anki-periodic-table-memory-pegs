@@ -36,7 +36,7 @@ The latest release is available on AnkiWeb
 [shared deck page](https://ankiweb.net/shared/info/490209917).
 
 If you want to use the work-in-progress version to the next release,
-you can download this git repository
+you can download this git repository, checkout the `develop` branch,
 and execute the `main.py` script to build the deck
 (`packages/periodic-table-memory-pegs.apkg`),
 import it in Anki and you're ready to go!
