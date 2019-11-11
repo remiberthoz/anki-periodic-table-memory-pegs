@@ -830,5 +830,21 @@
         "phrase": "Ruth's pe**rf**ect Ford. It has 4 wheels and Ford sounds like\"four\" to remember 104. The Model-T was so \"perfect\" that is was popular for many years.",
         "symbol": "Rf",
         "guid": "bVuX6WVpQw"
+    },
+    {
+        "atomic_number": "105",
+        "media": "media/105dubnium.gif",
+        "name": "Dubnium",
+        "phrase": "105 **d**eci**b**els dubstep music. The sound level in concert halls reaches 105 decibels. Dubstep sounds like dubnium, and the musical notes looks like a \"d\" and a \"b\".",
+        "symbol": "Db",
+        "guid": "Rj&Z5m[>Zp"
+    },
+    {
+        "atomic_number": "106",
+        "media": "media/106seaborgium.gif",
+        "name": "Seaborgium",
+        "phrase": "**S**cary cybor**g** (sounds like seaborgium). Its hexagonal eye reminds of the six in 106; its blue eye reminds of the sea.",
+        "symbol": "Sg",
+        "guid": "H{;,qSsY}d"
     }
 ]
