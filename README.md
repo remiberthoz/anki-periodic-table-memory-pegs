@@ -3,7 +3,7 @@
 **Chemical elements flashcard deck for [Anki](https://apps.ankiweb.net/)**,
 currently featuring the first 106 elements of the periodic table,
 to help you memorize and associate name, atomic number and symbol of
-elements in the Periodic Table.
+elements.
 
 ### How it works
 
@@ -32,11 +32,11 @@ There is also an explanation of how to use the pictures as memory pegs.
 
 ### Getting started
 
-The latest release is available on Ankiweb
+The latest release is available on AnkiWeb
 [shared deck page](https://ankiweb.net/shared/info/490209917).
 
 If you want to use the work-in-progress version to the next release,
-you can download this git repository
+you can download this git repository, checkout the `develop` branch,
 and execute the `main.py` script to build the deck
 (`packages/periodic-table-memory-pegs.apkg`),
 import it in Anki and you're ready to go!
@@ -58,7 +58,7 @@ to let me know!
 
 #### Legacy deck
 
-Before existing on Github,
+Before existing on GitHub,
 this deck was created and shared on the AnkiWeb platform.
 Since the latter lacks contribution features, it has been suggested to me
 that I could release it here as a git repository.
