@@ -846,5 +846,13 @@
         "phrase": "**S**cary cybor**g** (sounds like seaborgium). Its hexagonal eye reminds of the six in 106; its blue eye reminds of the sea.",
         "symbol": "Sg",
         "guid": "H{;,qSsY}d"
+    },
+    {
+        "atomic_number": "107",
+        "media": "media/107bohrium.gif",
+        "name": "Bohrium",
+        "phrase": "Niels **B**ohr went to **h**eaven (rhymes with 107).",
+        "symbol": "Bh",
+        "guid": ""
     }
 ]
