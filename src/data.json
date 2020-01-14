@@ -846,5 +846,21 @@
         "phrase": "**S**cary cybor**g** (sounds like seaborgium). Its hexagonal eye reminds of the six in 106; its blue eye reminds of the sea.",
         "symbol": "Sg",
         "guid": "H{;,qSsY}d"
+    },
+    {
+        "atomic_number": "107",
+        "media": "media/107bohrium.gif",
+        "name": "Bohrium",
+        "phrase": "Niels **B**ohr went to **h**eaven (rhymes with 107).",
+        "symbol": "Bh",
+        "guid": "f*C4x_wjNc"
+    },
+    {
+        "atomic_number": "113",
+        "media": "media/113nihonium.gif",
+        "name": "Nihonium",
+        "phrase": "The Americans were pretty unlucky that the Japanese discovered this element before them. 13 is said to be an unlucky number and **N**i**h**on is another word for Japan.",
+        "symbol": "Nh",
+        "guid": "TYk,P}c`I("
     }
 ]
