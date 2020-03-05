@@ -1,6 +1,11 @@
 .card {
     font-family: "Roboto";
 }
+
+.card.nightMode{
+    background-color: rgba(33, 33, 33, 1);
+}
+
 .picture {
     height: 100px;
     width: 100px;
@@ -30,6 +35,11 @@ img {
     padding: 16px;
     text-align: center;
 }
+
+.nightMode .box_title{
+   background: #888;
+}
+
 .box_title_text {
     color: rgba(0, 0, 0, 1);
     font-size: 24px;
@@ -37,6 +47,15 @@ img {
     margin: 0;
     min-height: 35px;
 }
+
+.nightMode .box_title_text{
+   color: #FFFFFF;
+}
+
+.nightMode .box_title_text sub{
+   color: #FFFFFF;
+}
+
 .box_title_text sub {
     color: rgba(0, 0, 0, 0.7);
 }
