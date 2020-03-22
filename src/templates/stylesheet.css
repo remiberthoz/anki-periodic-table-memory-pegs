@@ -2,7 +2,7 @@
     font-family: "Roboto";
 }
 
-.card.nightMode{
+.card.night_mode{
     background-color: rgba(33, 33, 33, 1);
 }
 
@@ -26,7 +26,7 @@ img {
     margin: auto;
 }
 
-.nightMode .box {
+.night_mode .box {
     box-shadow: 0 2px 2px 0 rgba(255, 255, 255, .5), 0 3px 1px -2px rgba(255, 255, 255, .2), 0 1px 5px 0 rgba(255, 255, 255, .5);
 }
 
@@ -36,7 +36,7 @@ img {
     text-align: center;
 }
 
-.nightMode .box_title{
+.night_mode .box_title{
    background: #888;
 }
 
@@ -48,11 +48,11 @@ img {
     min-height: 35px;
 }
 
-.nightMode .box_title_text{
+.night_mode .box_title_text{
    color: #FFFFFF;
 }
 
-.nightMode .box_title_text sub{
+.night_mode .box_title_text sub{
    color: #FFFFFF;
 }
 
@@ -74,11 +74,11 @@ img {
     font-family: "Roboto Slab";
 }
 
-.nightMode .box_text {
+.night_mode .box_text {
     color: rgba(255, 255, 255, .7);
 }
 
-.nightMode .box_text h2 {
+.night_mode .box_text h2 {
     color: rgba(255, 255, 255, .9);
 }
 
