@@ -47,7 +47,7 @@ Please feel free to contribute to this repo,
 here is what I would like to implement shortly:
 
 - [ ] memory pegs for the missing elements,
-- [ ] night mode,
+- [x] night mode,
 - [ ] spell checking,
 
 any other suggestions are open to discussion:
