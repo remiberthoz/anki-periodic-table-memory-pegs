@@ -6,7 +6,7 @@ Whether you want to correct a spelling mistake, update a picture, rephrase a
 sentence or create a memory peg for a new element, you are on the right page!
 Below you will find guidelines to help you go through the process.
 
-If you have an idea but do not feel like implementing it youself, you can
+If you have an idea but do not feel like implementing it yourself, you can
 [open a new issue](https://github.com/remiberthoz/anki-periodic-table-memory-pegs/issues).
 
 ## Contributor's guide
@@ -15,14 +15,14 @@ If you have an idea but do not feel like implementing it youself, you can
 [this guide](https://opensource.guide/how-to-contribute/).
 - If you want to edit or add data concerning an element,
 you can jump to the **Data contributions** section below.
-- If you want to redesign the deck (nightmode, text position on cards, etc.)
+- If you want to redesign the deck (night mode, text position on cards, etc.),
 you can jump to the **Other contributions** section below.
 
 ### Data contributions
 
 Data concerning the elements are stored in two files:
 
-- Textual data is stored in `src/data.json` this includes atomic number, name,
+- Textual data is stored in `src/data.json`—this includes atomic number, name,
 memory sentence, and symbol.
 
     If you want to modify textual data about one of the elements (or add some),
@@ -30,12 +30,12 @@ memory sentence, and symbol.
     You need to keep or reproduce the structure of the file.
     You will notice that each element has its own `guid`: the value it contains
     is important to Anki and you cannot modify it.
-    If you are creating a new element, you need to choose a random guid
-    value: it has to be 10 characters long.
+    If you are creating a new element, you need to choose a random `guid`
+    value—and it has to be 10 characters long.
 
-- Each elements has its picture stored in `src/media/` as a `.gif` file.
+- Each element has its picture stored in `src/media/` as a `.gif` file.
 
-    If you want to modify or create a new picture
+    If you want to modify or create a new picture,
     then the file you produce has to be a `.gif` of size 32x32 pixels,
     preferably with a transparent background.
 
@@ -44,39 +44,39 @@ to learn how to test your work.
 
 ### Other contributions
 
-This git repository is structured as follow:
+This git repository is structured as follows:
 - `version.txt` holds the version number of the last release,
-- `main.py` is a python script that creates the `.apkg` Anki deck,
+- `main.py` is a Python script that creates the `.apkg` Anki deck,
 - `packages/` contains the legacy deck,
-and the package produced by the python script,
+and the package produced by the Python script,
 - `preview/` contains images used in the repository description on GitHub and
 AnkiWeb,
 - `src/media/` contains the element's pictures,
 - `src/data.json` contains the element's textual data,
 - `src/templates/` contains the HTML code
-for the cards style and the CSS stylesheet,
+for the cards' style and the CSS stylesheet,
 - `src/desc.html` contains the HTML code for
 the AnkiWeb description of the deck.
 
-You are free to change anything,
+You are free to change anything;
 when you are done, you can jump to the **Build and import** section below
 to learn how to test your work.
 
 ### Build and import guide
 
-Executing the `main.py` python script will create a file named with a variant
+Executing the `main.py` Python script will create a file whose name is a variant
 of `periodic-table-memory-pegs_****.apkg` in the directory named `packages/`.
 This file is compatible with Anki, and you want to import it from here.
-**Be carefull**, if you did something wrong you may break your Anki review
+**Be careful**—if you did something wrong you may break your Anki review
 history. I would suggest that you create a new Anki user for testing purposes!
 
-The python script relies on the following python modules:
+The Python script relies on the following Python modules:
 `json`, 
 `markdown2`,
-`genanki` (the latter is found locally in the `genanki` directory) that you
-can download with the git command: `git submodule init`.
+`genanki` (which is found locally in the `genanki` directory), which you
+can download with the git command `git submodule init`.
 
-The script was developped using python version 3.
+The script was developed using Python version 3.
 
 If everything is in order, you can commit to the `develop` branch and push
 your changes to your fork, then submit a pull request (see the
