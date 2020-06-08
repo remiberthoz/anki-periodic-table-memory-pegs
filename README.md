@@ -1,8 +1,8 @@
 # Periodic Table Memory Pegs
 
 **Chemical elements flashcard deck for [Anki](https://apps.ankiweb.net/)**,
-currently featuring the first 108 elements of the periodic table,
-to help you memorize and associate name, atomic number and symbol of
+currently featuring the first 107 elements of the periodic table (and element 113),
+to help you memorize and associate name, atomic number, and symbol of
 elements.
 
 ### How it works
@@ -12,12 +12,12 @@ which is designed to remind you
 of the element's name, atomic number, and abbreviation.
 
 The cards in the deck will question you with one of the following:
-Pictures, Name, Symbol, or Number.
+Picture, Name, Symbol, or Number.
 The other side of the card will display all remaining data, as well as the
 element's position in the period table.
 There is also an explanation of how to use the pictures as memory pegs.
 
-**An example with fulorine:**
+**An example with fluorine:**
 
 <table>
     <tr>
@@ -63,7 +63,7 @@ this deck was created and shared on the AnkiWeb platform.
 Since the latter lacks contribution features, it has been suggested to me
 that I could release it here as a git repository.
 From now on my plan is to review comments and suggestions with care,
-and accept motivated pull-requests.
+and accept motivated pull requests.
 
 #### Original source
 
