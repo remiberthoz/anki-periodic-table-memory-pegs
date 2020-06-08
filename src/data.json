@@ -19,7 +19,7 @@
         "atomic_number": "3",
         "media": "media/03lithium.gif",
         "name": "Lithium",
-        "phrase": "**Li**thium watch battery, 3-volt. *Lilac* colored (sounds like lithium and all three natural minerals are lilaccolored).",
+        "phrase": "**Li**thium watch battery, 3-volt. *Lilac* colored (sounds like lithium and all three natural minerals are lilac colored).",
         "symbol": "Li",
         "guid": "YfZv:dC1p"
     },
@@ -83,7 +83,7 @@
         "atomic_number": "11",
         "media": "media/11sodium.gif",
         "name": "Sodium",
-        "phrase": "**Na**rrow Soda Crackers. Two of them, bright *yellow*, shaped like an \"11\", like the bright yellow sodium D spectrallines. Sodium is named for soda (sodium carbonate).",
+        "phrase": "**Na**rrow Soda Crackers. Two of them, bright *yellow*, shaped like an \"11\", like the bright yellow sodium D spectral lines. Sodium is named for soda (sodium carbonate).",
         "symbol": "Na",
         "guid": "t68qo^Mg/u"
     },
@@ -147,7 +147,7 @@
         "atomic_number": "19",
         "media": "media/19potassium.gif",
         "name": "Potassium",
-        "phrase": "**K**ettle, or *Pot* of *gray* *Ash*es. 19th-century way to make soap from potash (potassium is  named for potash, potassium carbonate or hydroxide, which is named for the pot of ashes used to obtain it).",
+        "phrase": "**K**ettle, or *Pot* of *gray* *Ash*es. 19th-century way to make soap from potash (potassium is named for potash, potassium carbonate or hydroxide, which is named for the pot of ashes used to obtain it).",
         "symbol": "K",
         "guid": "vop50-,Q]7"
     },
@@ -171,7 +171,7 @@
         "atomic_number": "22",
         "media": "media/22titanium.gif",
         "name": "Titanium",
-        "phrase": "**Ti**tanic. The Titanic had 2200 passengers when it hit an iceberg and sank.",
+        "phrase": "**Ti**tanic. The Titanic had ~2200 passengers when it hit an iceberg and sank.",
         "symbol": "Ti",
         "guid": "D/bnPZ7AjM"
     },
@@ -219,7 +219,7 @@
         "atomic_number": "28",
         "media": "media/28nickel.gif",
         "name": "Nickel",
-        "phrase": "**Ni**ckel. In 1928, the year before the Great Depression, people had more money (a nickel) than in the next year ('29). The U.S. coin called a \"nickel\" used to be made of nickel.",
+        "phrase": "**Ni**ckel. In 1928, the year before the Great Depression, people had more money (a nickel) than in the next year ('29). The U.S. coin called a \"nickel\" is (partly) made of nickel.",
         "symbol": "Ni",
         "guid": "PPGRLS6WBQ"
     },
@@ -227,7 +227,7 @@
         "atomic_number": "29",
         "media": "media/29copper.gif",
         "name": "Copper",
-        "phrase": "Copper Penny. The **Cu**rrency during the Great Depression which began in '29.",
+        "phrase": "Copper Penny. The **Cu**rrency during the Great Depression, which began in '29.",
         "symbol": "Cu",
         "guid": "hrm]Q0PEzT"
     },
@@ -259,7 +259,7 @@
         "atomic_number": "33",
         "media": "media/33arsenic.gif",
         "name": "Arsenic",
-        "phrase": "**A s**kull & crossbones. Rat poison is arsenic trioxide, commonly called simply \"arsenic\". In other forms, such as is found in apples, arsenic is nutritious. Arsenic has three natural varieties: black, gray and yellow, as shown by the three colors in the icon.",
+        "phrase": "**A s**kull & crossbones. Rat poison is arsenic trioxide, commonly called simply \"arsenic\". In other forms, such as is found in apples, arsenic is nutritious. Arsenic has three natural varieties: black, gray, and yellow, as shown by the three colors in the icon.",
         "symbol": "As",
         "guid": "qJJ:;1u4V}"
     },
@@ -299,7 +299,7 @@
         "atomic_number": "38",
         "media": "media/38strontium.gif",
         "name": "Strontium",
-        "phrase": "I**sr**aeli Strongbox. Bright red because the red in mostfireworks is from strontium. It weighs 38 pounds.",
+        "phrase": "I**sr**aeli Strongbox. Bright red because the red in most fireworks is from strontium. It weighs 38 pounds.",
         "symbol": "Sr",
         "guid": "eWqH?Ov}!:"
     },
@@ -339,7 +339,7 @@
         "atomic_number": "43",
         "media": "media/43technetium.gif",
         "name": "Technetium",
-        "phrase": "Du**tc**h Technician. 43-years-old. Technetium was made synthetically; it is not stable enough to be found in nature.",
+        "phrase": "Du**tc**h Technician. 43 years old. Technetium was made synthetically; it is not stable enough to be found in nature.",
         "symbol": "Tc",
         "guid": "B6g$WiqB3,"
     },
@@ -347,7 +347,7 @@
         "atomic_number": "44",
         "media": "media/44ruthenium.gif",
         "name": "Ruthenium",
-        "phrase": "**Ru**th's hen. It's feet look like 44 and \"Ruth's hen\" sounds like Ruthenium. It is also by the wren and ostrich in the periodic table.",
+        "phrase": "**Ru**th's hen. Its feet look like 44 and \"Ruth's hen\" sounds like Ruthenium. It is also by the wren and ostrich in the periodic table.",
         "symbol": "Ru",
         "guid": "M}vEw8D`8L"
     },
@@ -355,7 +355,7 @@
         "atomic_number": "45",
         "media": "media/45rhodium.gif",
         "name": "Rhodium",
-        "phrase": "Road in **Rh**ode Island. Speed limit 45 m.p.h.",
+        "phrase": "Road in **Rh**ode Island. Speed limit 45 mph.",
         "symbol": "Rh",
         "guid": "m)?_d&Q?`1"
     },
@@ -371,7 +371,7 @@
         "atomic_number": "47",
         "media": "media/47silver.gif",
         "name": "Silver",
-        "phrase": "**Ag**nes's Silver Dime. '47 was **A G**ood year after WW II. (Silver is \"argentum\" in Latin).",
+        "phrase": "**Ag**nes's Silver Dime. '47 was **A G**ood year after WWII. (Silver is \"argentum\" in Latin).",
         "symbol": "Ag",
         "guid": "yW:,sx48qM"
     },
@@ -379,7 +379,7 @@
         "atomic_number": "48",
         "media": "media/48cadmium.gif",
         "name": "Cadmium",
-        "phrase": "**CD** Caddy. The caddy holds 4 dozen (48) CD's.",
+        "phrase": "**CD** Caddy. The caddy holds 4 dozen (48) CDs.",
         "symbol": "Cd",
         "guid": "LT(:oG7%au"
     },
@@ -387,7 +387,7 @@
         "atomic_number": "49",
         "media": "media/49indium.gif",
         "name": "Indium",
-        "phrase": "India **In**k. 49 cent bottle.",
+        "phrase": "India **In**k. 49-cent bottle.",
         "symbol": "In",
         "guid": "yif&NlR5qA"
     },
@@ -451,7 +451,7 @@
         "atomic_number": "57",
         "media": "media/57lanthanum.gif",
         "name": "Lanthanum",
-        "phrase": "**La**ntern. 57 candle-power.",
+        "phrase": "**La**ntern. 57 candlepower.",
         "symbol": "La",
         "guid": "D]I=c>@]pG"
     },
@@ -483,7 +483,7 @@
         "atomic_number": "61",
         "media": "media/61promethium.gif",
         "name": "Promethium",
-        "phrase": "Prominent fire. Fire is needed after 6:10 **p.m.** Promethius brought fire to mankind. The flames look like 61.",
+        "phrase": "Prominent fire. Fire is needed after 6:10 **p.m.** Prometheus brought fire to mankind. The flames look like 61.",
         "symbol": "Pm",
         "guid": "iFmxYKP&[e"
     },
@@ -491,7 +491,7 @@
         "atomic_number": "62",
         "media": "media/62samarium.gif",
         "name": "Samarium",
-        "phrase": "**Sm**all samurai  sword. 62 generations of use.",
+        "phrase": "**Sm**all samurai sword. 62 generations of use.",
         "symbol": "Sm",
         "guid": "Jx-Km<T.8Q"
     },
@@ -619,7 +619,7 @@
         "atomic_number": "78",
         "media": "media/78platinum.gif",
         "name": "Platinum",
-        "phrase": "Platinum Record. The old kind that rotated at a speed of 78 rpm. Recorded by \"The Egy**pt**ians\". A platinum recording soldmore copies than a gold, and platinum is worth more than gold.",
+        "phrase": "Platinum Record. The old kind that rotated at a speed of 78 rpm. Recorded by \"The Egy**pt**ians\". A platinum recording sold more copies than a gold, and platinum is worth more than gold.",
         "symbol": "Pt",
         "guid": "ju:`(jJGhX"
     },
@@ -627,7 +627,7 @@
         "atomic_number": "79",
         "media": "media/79gold.gif",
         "name": "Gold",
-        "phrase": "Gold Coin. A '79 **A.U.** (Almost Uncirculated). The latin word for gold is aurum.",
+        "phrase": "Gold Coin. A '79 **A.U.** (Almost Uncirculated). The Latin word for gold is \"aurum\".",
         "symbol": "Au",
         "guid": "i]D{)e^f=8"
     },
@@ -651,7 +651,7 @@
         "atomic_number": "82",
         "media": "media/82lead.gif",
         "name": "Lead",
-        "phrase": "Lead Plumbing. Under the cu**pb**oard. 82% lead. The latin word for lead is plumbum.",
+        "phrase": "Lead Plumbing. Under the cu**pb**oard. 82% lead. The Latin word for lead is \"plumbum\".",
         "symbol": "Pb",
         "guid": "vG#jj)g.KX"
     },
@@ -659,7 +659,7 @@
         "atomic_number": "83",
         "media": "media/83bismuth.gif",
         "name": "Bismuth",
-        "phrase": "Pepto **Bi**smol. I \"ate 3\" teaspoons of Pepto Bismol (sounds like \"83\"). Pepto Bismol contains Bismuth Subsalicylate.",
+        "phrase": "Pepto **Bi**smol. I \"ate 3\" teaspoons of Pepto Bismol (sounds like \"83\"). Pepto Bismol contains bismuth subsalicylate.",
         "symbol": "Bi",
         "guid": "IxjeqkJSqa"
     },
@@ -675,7 +675,7 @@
         "atomic_number": "85",
         "media": "media/85astatine.gif",
         "name": "Astatine",
-        "phrase": "**A t**all Aster (85 petals). The flowers, stem and leaf form an \"85\".",
+        "phrase": "**A t**all Aster (85 petals). The flowers, stem, and leaf form an \"85\".",
         "symbol": "At",
         "guid": "g^<s>,ml#/"
     },
@@ -691,7 +691,7 @@
         "atomic_number": "87",
         "media": "media/87francium.gif",
         "name": "Francium",
-        "phrase": "**Fr**ance's Eiffel Tower. Built for the World's Fair and commemorated the centenniel of the French Revolution which technically began in 17**87**.",
+        "phrase": "**Fr**ance's Eiffel Tower. Built for the World's Fair and commemorated the centennial of the French Revolution, which some might say began in 17**87**.",
         "symbol": "Fr",
         "guid": "x8rL#sPhzx"
     },
@@ -707,7 +707,7 @@
         "atomic_number": "89",
         "media": "media/89actinium.gif",
         "name": "Actinium",
-        "phrase": "**Ac**tor. He won 89 oscars.",
+        "phrase": "**Ac**tor. He won 89 Oscars.",
         "symbol": "Ac",
         "guid": "gwQP;Yw(@<"
     },
@@ -731,7 +731,7 @@
         "atomic_number": "92",
         "media": "media/92uranium.gif",
         "name": "Uranium",
-        "phrase": "**U**ranium A-Bomb. 92 Kilotons. Memorize Uranus, Neptune and Pluto (the planets in a row) for 92, 93, 94.",
+        "phrase": "**U**ranium A-Bomb. 92 kilotons. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94.",
         "symbol": "U",
         "guid": "tkN`X}AO#d"
     },
@@ -739,7 +739,7 @@
         "atomic_number": "93",
         "media": "media/93neptunium.gif",
         "name": "Neptunium",
-        "phrase": "Neptunia**n p**itchfork. Neptune's trident is 9' long with 3 prongs. Memorize Uranus, Neptune and Pluto (the planets in a row) for 92, 93, 94.",
+        "phrase": "Neptunia**n p**itchfork. Neptune's trident is 9' long with 3 prongs. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94.",
         "symbol": "Np",
         "guid": "l&MS9[<:=&"
     },
@@ -747,7 +747,7 @@
         "atomic_number": "94",
         "media": "media/94plutonium.gif",
         "name": "Plutonium",
-        "phrase": "Pluto the **Pu**p. Mickey Mouse's dog. Memorize Uranus, Neptune and Pluto (the planets in a row) for 92, 93, 94, and remember that Pluto's ears look like a \"94\".",
+        "phrase": "Pluto the **Pu**p. Mickey Mouse's dog. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94, and remember that Pluto's ears look like a \"94\".",
         "symbol": "Pu",
         "guid": "BCPmRQicnv"
     },
@@ -779,7 +779,7 @@
         "atomic_number": "98",
         "media": "media/98californium.gif",
         "name": "Californium",
-        "phrase": "**C**auli-**f**lower. Remember Berkeley, California, are consecutiveand that there is a 98 hidden in the cauliflower. California produces a lot of cauliflower.",
+        "phrase": "**C**auli-**f**lower. Remember Berkeley, California, are consecutive and that there is a 98 hidden in the cauliflower. California produces a lot of cauliflower.",
         "symbol": "Cf",
         "guid": "ILOhA]ha@}"
     },
@@ -787,7 +787,7 @@
         "atomic_number": "99",
         "media": "media/99einsteinium.gif",
         "name": "Einsteinium",
-        "phrase": "Einstein's **es**oteric earrings. The hidden meaning is that his theory predicts you can only go 99% of the speed of light.",
+        "phrase": "Einstein's **es**oteric earrings. The hidden meaning is that his theory predicts you can only go ~99% of the speed of light.",
         "symbol": "Es",
         "guid": "zZGSh#{ZMh"
     },
@@ -803,7 +803,7 @@
         "atomic_number": "101",
         "media": "media/101mendelevium.gif",
         "name": "Mendelevium",
-        "phrase": "Mental **M.D.**. They work on brains. Mental MD's alltook Psychology 101.",
+        "phrase": "Mental **M.D.**. They work on brains. Mental MDs all took Psychology 101.",
         "symbol": "Md",
         "guid": "QRfJtm&$(I"
     },
@@ -827,7 +827,7 @@
         "atomic_number": "104",
         "media": "media/104rutherfordium.gif",
         "name": "Rutherfordium",
-        "phrase": "Ruth's pe**rf**ect Ford. It has 4 wheels and Ford sounds like\"four\" to remember 104. The Model-T was so \"perfect\" that is was popular for many years.",
+        "phrase": "Ruth's pe**rf**ect Ford. It has 4 wheels and Ford sounds like\"four\" to remember 104. The Model T was so \"perfect\" that is was popular for many years.",
         "symbol": "Rf",
         "guid": "bVuX6WVpQw"
     },
