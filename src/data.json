@@ -691,7 +691,7 @@
         "atomic_number": "87",
         "media": "media/87francium.gif",
         "name": "Francium",
-        "phrase": "**Fr**ance's Eiffel Tower. Built for the World's Fair and commemorated the centennial of the French Revolution, which some might say began in 17**87**.",
+        "phrase": "**Fr**ance's Eiffel Tower construction started in 18**87** and finished for the World's Fair to celebrate the centennial of the French Revolution.",
         "symbol": "Fr",
         "guid": "x8rL#sPhzx"
     },
@@ -787,7 +787,7 @@
         "atomic_number": "99",
         "media": "media/99einsteinium.gif",
         "name": "Einsteinium",
-        "phrase": "Einstein's **es**oteric earrings. The hidden meaning is that his theory predicts you can only go ~99% of the speed of light.",
+        "phrase": "Einstein's **es**oteric earrings. The hidden meaning is that his theory predicts you can only go 99.999...% of the speed of light.",
         "symbol": "Es",
         "guid": "zZGSh#{ZMh"
     },
