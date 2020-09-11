@@ -81,6 +81,8 @@ for elt in elements:
     name = elt['name']
     media = elt['media']
     guid = elt['guid']
+    period = elt['period']
+    group = 'Actinoids' if elt['group'] == 'A' else 'Lanthanoids' if  elt['group'] == 'L' else elt['group']
 
     phrase_html = mk.convert(phrase)
 
@@ -89,7 +91,8 @@ for elt in elements:
 
     note = genanki.Note(
             model=model,
-            fields=[media_html, name, number, symbol, phrase_html, ''])
+            fields=[media_html, name, number, symbol, phrase_html, ''],
+            tags=[f'period:{period}', f'group:{group}'])
     note.guid = guid
 
     deck.add_note(note)

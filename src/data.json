@@ -5,7 +5,9 @@
         "name": "Hydrogen",
         "phrase": "**H**ydrant. *Blue* for \"first place\" (blue ribbon) and for water, its principal compound; tall and thin, shaped like a \"1\". Hydrant sounds like hydrogen (both refer to water).",
         "symbol": "H",
-        "guid": "n}rd3nuMc4"
+        "guid": "n}rd3nuMc4",
+        "period": "1",
+        "group": "1"
     },
     {
         "atomic_number": "2",
@@ -13,7 +15,9 @@
         "name": "Helium",
         "phrase": "**He**lium Balloon. *Silver* colored for \"second place\" (silver medal); a noble color for a noble gas.",
         "symbol": "He",
-        "guid": "xHC#EAt7RI"
+        "guid": "xHC#EAt7RI",
+        "period": "1",
+        "group": "18"
     },
     {
         "atomic_number": "3",
@@ -21,7 +25,9 @@
         "name": "Lithium",
         "phrase": "**Li**thium watch battery, 3-volt. *Lilac* colored (sounds like lithium and all three natural minerals are lilac colored).",
         "symbol": "Li",
-        "guid": "YfZv:dC1p"
+        "guid": "YfZv:dC1p",
+        "period": "2",
+        "group": "1"
     },
     {
         "atomic_number": "4",
@@ -29,7 +35,9 @@
         "name": "Beryllium",
         "phrase": "**Be**ryl-studded **Be**lt Buckle. Rectangular (4 sides), with four *pink* beryls (beryl is a pink gem: beryllium aluminum silicate).",
         "symbol": "Be",
-        "guid": "e:qF`j;5CC"
+        "guid": "e:qF`j;5CC",
+        "period": "2",
+        "group": "2"
     },
     {
         "atomic_number": "5",
@@ -37,7 +45,9 @@
         "name": "Boron",
         "phrase": "**B**ox of **B**orax. 5-pound box, *dark brown*, the color of pure boron (borax is hydrated sodium borate).",
         "symbol": "B",
-        "guid": "gHiX;=n+iW"
+        "guid": "gHiX;=n+iW",
+        "period": "2",
+        "group": "13"
     },
     {
         "atomic_number": "6",
@@ -45,7 +55,9 @@
         "name": "Carbon",
         "phrase": "**C**harcoal pencil. *Black*, the color of charcoal and also of graphite (carbon) in pencil leads. Hexagonal (6-sided).",
         "symbol": "C",
-        "guid": "hn4x,Xu@9v"
+        "guid": "hn4x,Xu@9v",
+        "period": "2",
+        "group": "14"
     },
     {
         "atomic_number": "7",
@@ -53,7 +65,9 @@
         "name": "Nitrogen",
         "phrase": "Dynamite, or **N**itroglycerin. Two *red* sticks, shaped like a \"7\" (most explosives contain nitrogen).",
         "symbol": "N",
-        "guid": "DVDfO=IHGF"
+        "guid": "DVDfO=IHGF",
+        "period": "2",
+        "group": "15"
     },
     {
         "atomic_number": "8",
@@ -61,7 +75,9 @@
         "name": "Oxygen",
         "phrase": "**O**xygen-filled Life preservers. *White* for air, which preserves life. Two of them touching, shaped like an \"8\".",
         "symbol": "O",
-        "guid": "lnuU5T|NG("
+        "guid": "lnuU5T|NG(",
+        "period": "2",
+        "group": "16"
     },
     {
         "atomic_number": "9",
@@ -69,7 +85,9 @@
         "name": "Fluorine",
         "phrase": "**F**luoride Toothpaste. *Purple*, the color of the mineral fluorite (calcium fluoride), and shaped like a \"9\".",
         "symbol": "F",
-        "guid": "q?.@qN}^6b"
+        "guid": "q?.@qN}^6b",
+        "period": "2",
+        "group": "17"
     },
     {
         "atomic_number": "10",
@@ -77,7 +95,9 @@
         "name": "Neon",
         "phrase": "**Ne**on Sign. Shaped like a \"10\", flashing *orange*, like the orange/red color of neon in neon signs.",
         "symbol": "Ne",
-        "guid": "C:=F,/Ss:H"
+        "guid": "C:=F,/Ss:H",
+        "period": "2",
+        "group": "18"
     },
     {
         "atomic_number": "11",
@@ -85,7 +105,9 @@
         "name": "Sodium",
         "phrase": "**Na**rrow Soda Crackers. Two of them, bright *yellow*, shaped like an \"11\", like the bright yellow sodium D spectral lines. Sodium is named for soda (sodium carbonate).",
         "symbol": "Na",
-        "guid": "t68qo^Mg/u"
+        "guid": "t68qo^Mg/u",
+        "period": "3",
+        "group": "1"
     },
     {
         "atomic_number": "12",
@@ -93,7 +115,9 @@
         "name": "Magnesium",
         "phrase": "**M**u**g**. 12 oz. *green* mug made of olivine (magnesium silicate), filled with milk of magnesia (magnesium hydroxide). Magnesium in chlorophyll gives plants their green color.",
         "symbol": "Mg",
-        "guid": "E?MIP3,t,B"
+        "guid": "E?MIP3,t,B",
+        "period": "3",
+        "group": "2"
     },
     {
         "atomic_number": "13",
@@ -101,7 +125,9 @@
         "name": "Aluminum",
         "phrase": "**Al**uminum Ladder. Unlucky to walk under, and 13 is unlucky. *Turquoise (blue-green)* colored (turquoise is hydrated aluminum phosphate).",
         "symbol": "Al",
-        "guid": "OKUC^,{VtN"
+        "guid": "OKUC^,{VtN",
+        "period": "3",
+        "group": "13"
     },
     {
         "atomic_number": "14",
@@ -109,7 +135,9 @@
         "name": "Silicon",
         "phrase": "**Si**licon Chip. It as 14 pins, and is the *tan* color of sand (silicon dioxide) or sandstone (silica).",
         "symbol": "Si",
-        "guid": "O|o1v/{oDS"
+        "guid": "O|o1v/{oDS",
+        "period": "3",
+        "group": "14"
     },
     {
         "atomic_number": "15",
@@ -117,7 +145,9 @@
         "name": "Phosphorus",
         "phrase": "**P**hosphorus Matches. *Red/white* striped book of 15, heads white, striker red (there are both white and red forms of phosphorus). The matches could light the dynamite (nitrogen) in the periodic table.",
         "symbol": "P",
-        "guid": "F-SC#~[/r5"
+        "guid": "F-SC#~[/r5",
+        "period": "3",
+        "group": "15"
     },
     {
         "atomic_number": "16",
@@ -125,7 +155,9 @@
         "name": "Sulfur",
         "phrase": "**S**ulfuric Acid. One pint (16 oz.), *pale yellow* in a flask.",
         "symbol": "S",
-        "guid": "pQX#!ZoMm#"
+        "guid": "pQX#!ZoMm#",
+        "period": "3",
+        "group": "16"
     },
     {
         "atomic_number": "17",
@@ -133,7 +165,9 @@
         "name": "Chlorine",
         "phrase": "**Cl**orox. *Yellow-green* bottle, the color of chlorine gas (\"chloros\" means yellow-green in Greek). **Cl**eans 17 ways (Clorox is sodium hypochlorite). Note that Clorox has no letter \"h\" making it easy to remember the abbreviation Cl.",
         "symbol": "Cl",
-        "guid": "Me@Iq[bjiK"
+        "guid": "Me@Iq[bjiK",
+        "period": "3",
+        "group": "17"
     },
     {
         "atomic_number": "18",
@@ -141,7 +175,9 @@
         "name": "Argon",
         "phrase": "**Ar**gon-filled Fluorescent Light. 18-inch, *sky-blue* (air is 1% argon).",
         "symbol": "Ar",
-        "guid": "DQk#<MZm#A"
+        "guid": "DQk#<MZm#A",
+        "period": "3",
+        "group": "18"
     },
     {
         "atomic_number": "19",
@@ -149,7 +185,9 @@
         "name": "Potassium",
         "phrase": "**K**ettle, or *Pot* of *gray* *Ash*es. 19th-century way to make soap from potash (potassium is named for potash, potassium carbonate or hydroxide, which is named for the pot of ashes used to obtain it).",
         "symbol": "K",
-        "guid": "vop50-,Q]7"
+        "guid": "vop50-,Q]7",
+        "period": "4",
+        "group": "1"
     },
     {
         "atomic_number": "20",
@@ -157,7 +195,9 @@
         "name": "Calcium",
         "phrase": "**Ca**lcite Pearls. *Ivory* A string of 20 pearls. Calcite is a form of calcium carbonate.",
         "symbol": "Ca",
-        "guid": "z=z`gR)1lE"
+        "guid": "z=z`gR)1lE",
+        "period": "4",
+        "group": "2"
     },
     {
         "atomic_number": "21",
@@ -165,7 +205,9 @@
         "name": "Scandium",
         "phrase": "**Sc**andal Page. One should be 21 years old to read the scandal page of the newspaper.",
         "symbol": "Sc",
-        "guid": "ocw6yrx9/Q"
+        "guid": "ocw6yrx9/Q",
+        "period": "4",
+        "group": "3"
     },
     {
         "atomic_number": "22",
@@ -173,7 +215,9 @@
         "name": "Titanium",
         "phrase": "**Ti**tanic. The Titanic had ~2200 passengers when it hit an iceberg and sank.",
         "symbol": "Ti",
-        "guid": "D/bnPZ7AjM"
+        "guid": "D/bnPZ7AjM",
+        "period": "4",
+        "group": "4"
     },
     {
         "atomic_number": "23",
@@ -181,7 +225,9 @@
         "name": "Vanadium",
         "phrase": "Che**v** Van. 23-passenger van made with vanadium steel.",
         "symbol": "V",
-        "guid": "rCf@?^u)@,"
+        "guid": "rCf@?^u)@,",
+        "period": "4",
+        "group": "5"
     },
     {
         "atomic_number": "24",
@@ -189,7 +235,9 @@
         "name": "Chromium",
         "phrase": "Chrome-plated **Cr**eamer. 24-oz. pitcher of cream.",
         "symbol": "Cr",
-        "guid": "e9Wa%8Zg5I"
+        "guid": "e9Wa%8Zg5I",
+        "period": "4",
+        "group": "6"
     },
     {
         "atomic_number": "25",
@@ -197,7 +245,9 @@
         "name": "Manganese",
         "phrase": "Autu**mn** Mangos. 25 of them.",
         "symbol": "Mn",
-        "guid": "yV|%dkTq<l"
+        "guid": "yV|%dkTq<l",
+        "period": "4",
+        "group": "7"
     },
     {
         "atomic_number": "26",
@@ -205,7 +255,9 @@
         "name": "Iron",
         "phrase": "**Fe**rris Wheel. 26-seats and made of iron. Sounds like \"ferrous\", which refers to iron.",
         "symbol": "Fe",
-        "guid": "Fhzv|j0|*r"
+        "guid": "Fhzv|j0|*r",
+        "period": "4",
+        "group": "8"
     },
     {
         "atomic_number": "27",
@@ -213,7 +265,9 @@
         "name": "Cobalt",
         "phrase": "**Co**bblestone. It is a 3\" cube, so it has a volume of 27 cubic inches.",
         "symbol": "Co",
-        "guid": "JX$Dm+N@A/"
+        "guid": "JX$Dm+N@A/",
+        "period": "4",
+        "group": "9"
     },
     {
         "atomic_number": "28",
@@ -221,7 +275,9 @@
         "name": "Nickel",
         "phrase": "**Ni**ckel. In 1928, the year before the Great Depression, people had more money (a nickel) than in the next year ('29). The U.S. coin called a \"nickel\" is (partly) made of nickel.",
         "symbol": "Ni",
-        "guid": "PPGRLS6WBQ"
+        "guid": "PPGRLS6WBQ",
+        "period": "4",
+        "group": "10"
     },
     {
         "atomic_number": "29",
@@ -229,7 +285,9 @@
         "name": "Copper",
         "phrase": "Copper Penny. The **Cu**rrency during the Great Depression, which began in '29.",
         "symbol": "Cu",
-        "guid": "hrm]Q0PEzT"
+        "guid": "hrm]Q0PEzT",
+        "period": "4",
+        "group": "11"
     },
     {
         "atomic_number": "30",
@@ -237,7 +295,9 @@
         "name": "Zinc",
         "phrase": "Bra**z**e**n** and zinc sink. Made of galvanized iron (iron coated with zinc), with $30 brass (brazen means brass) faucet. Brass is an alloy of copper and zinc. Sink sounds like zinc.",
         "symbol": "Zn",
-        "guid": "G#!N`{YROe"
+        "guid": "G#!N`{YROe",
+        "period": "4",
+        "group": "12"
     },
     {
         "atomic_number": "31",
@@ -245,7 +305,9 @@
         "name": "Gallium",
         "phrase": "**Ga**lleon. The old Spanish galleons had three masts, each of which looked like a \"1\", to remind us of 31.",
         "symbol": "Ga",
-        "guid": "mIBP%M0G0Y"
+        "guid": "mIBP%M0G0Y",
+        "period": "4",
+        "group": "13"
     },
     {
         "atomic_number": "32",
@@ -253,7 +315,9 @@
         "name": "Germanium",
         "phrase": "**Ge**rman beer. A quart stein (32 fl. oz.) of German beer. Germanium was named for Germany.",
         "symbol": "Ge",
-        "guid": "e^v)5r,(%/"
+        "guid": "e^v)5r,(%/",
+        "period": "4",
+        "group": "14"
     },
     {
         "atomic_number": "33",
@@ -261,7 +325,9 @@
         "name": "Arsenic",
         "phrase": "**A s**kull & crossbones. Rat poison is arsenic trioxide, commonly called simply \"arsenic\". In other forms, such as is found in apples, arsenic is nutritious. Arsenic has three natural varieties: black, gray, and yellow, as shown by the three colors in the icon.",
         "symbol": "As",
-        "guid": "qJJ:;1u4V}"
+        "guid": "qJJ:;1u4V}",
+        "period": "4",
+        "group": "15"
     },
     {
         "atomic_number": "34",
@@ -269,7 +335,9 @@
         "name": "Selenium",
         "phrase": "**Se**nsitive solar *cell lean*ing. Leaning at a 34\u00b0 angle off vertical. Sounds like selenium. Solar cells often contain selenium.",
         "symbol": "Se",
-        "guid": "GbLI48Ah$z"
+        "guid": "GbLI48Ah$z",
+        "period": "4",
+        "group": "16"
     },
     {
         "atomic_number": "35",
@@ -277,7 +345,9 @@
         "name": "Bromine",
         "phrase": "**Br**oom. 35 Bristles (seven rows of five). In the periodic table, note that all the elements in this column are cleaners.",
         "symbol": "Br",
-        "guid": "Np;hadouEF"
+        "guid": "Np;hadouEF",
+        "period": "4",
+        "group": "17"
     },
     {
         "atomic_number": "36",
@@ -285,7 +355,9 @@
         "name": "Krypton",
         "phrase": "**Kr**ypton Yardstick. One yard is 36 inches. Krypton gas was used (until 1983) to define the scientific unit of length, the meter, which is about a yard long.",
         "symbol": "Kr",
-        "guid": "wts43OO&R6"
+        "guid": "wts43OO&R6",
+        "period": "4",
+        "group": "18"
     },
     {
         "atomic_number": "37",
@@ -293,7 +365,9 @@
         "name": "Rubidium",
         "phrase": "Supe**rb** ruby. *Red* ruby, 37-carat.",
         "symbol": "Rb",
-        "guid": "B/9BoL@mG,"
+        "guid": "B/9BoL@mG,",
+        "period": "5",
+        "group": "1"
     },
     {
         "atomic_number": "38",
@@ -301,7 +375,9 @@
         "name": "Strontium",
         "phrase": "I**sr**aeli Strongbox. Bright red because the red in most fireworks is from strontium. It weighs 38 pounds.",
         "symbol": "Sr",
-        "guid": "eWqH?Ov}!:"
+        "guid": "eWqH?Ov}!:",
+        "period": "5",
+        "group": "2"
     },
     {
         "atomic_number": "39",
@@ -309,7 +385,9 @@
         "name": "Yttrium",
         "phrase": "A Tree. **Y**-shaped, with a \"39\" carved in it. Sounds like yttrium.",
         "symbol": "Y",
-        "guid": "DcB%om;i0v"
+        "guid": "DcB%om;i0v",
+        "period": "5",
+        "group": "3"
     },
     {
         "atomic_number": "40",
@@ -317,7 +395,9 @@
         "name": "Zirconium",
         "phrase": "E**zr**a's **Z**ircon **R**ing. Only cost $40.",
         "symbol": "Zr",
-        "guid": "bf$IRHsJ&0"
+        "guid": "bf$IRHsJ&0",
+        "period": "5",
+        "group": "4"
     },
     {
         "atomic_number": "41",
@@ -325,7 +405,9 @@
         "name": "Niobium",
         "phrase": "U**nb**earable Onion. \"For one\" person only. Sounds like Niobium and like \"4,1\". In Greek mythology, Niobe wept for the loss of her children, like an onion makes you weep.",
         "symbol": "Nb",
-        "guid": "NcJjT8{nS{"
+        "guid": "NcJjT8{nS{",
+        "period": "5",
+        "group": "5"
     },
     {
         "atomic_number": "42",
@@ -333,7 +415,9 @@
         "name": "Molybdenum",
         "phrase": "**Mo**lly's Denims. 42\" waist. Sounds like Molybdenum.",
         "symbol": "Mo",
-        "guid": "etG^hcaZ-}"
+        "guid": "etG^hcaZ-}",
+        "period": "5",
+        "group": "6"
     },
     {
         "atomic_number": "43",
@@ -341,7 +425,9 @@
         "name": "Technetium",
         "phrase": "Du**tc**h Technician. 43 years old. Technetium was made synthetically; it is not stable enough to be found in nature.",
         "symbol": "Tc",
-        "guid": "B6g$WiqB3,"
+        "guid": "B6g$WiqB3,",
+        "period": "5",
+        "group": "7"
     },
     {
         "atomic_number": "44",
@@ -349,7 +435,9 @@
         "name": "Ruthenium",
         "phrase": "**Ru**th's hen. Its feet look like 44 and \"Ruth's hen\" sounds like Ruthenium. It is also by the wren and ostrich in the periodic table.",
         "symbol": "Ru",
-        "guid": "M}vEw8D`8L"
+        "guid": "M}vEw8D`8L",
+        "period": "5",
+        "group": "8"
     },
     {
         "atomic_number": "45",
@@ -357,7 +445,9 @@
         "name": "Rhodium",
         "phrase": "Road in **Rh**ode Island. Speed limit 45 mph.",
         "symbol": "Rh",
-        "guid": "m)?_d&Q?`1"
+        "guid": "m)?_d&Q?`1",
+        "period": "5",
+        "group": "9"
     },
     {
         "atomic_number": "46",
@@ -365,7 +455,9 @@
         "name": "Palladium",
         "phrase": "To**p d**og **P**alace. The sultan has 46 wives in its 46 towers, which look like \"46\".",
         "symbol": "Pd",
-        "guid": "A2zSI#~dAv"
+        "guid": "A2zSI#~dAv",
+        "period": "5",
+        "group": "10"
     },
     {
         "atomic_number": "47",
@@ -373,7 +465,9 @@
         "name": "Silver",
         "phrase": "**Ag**nes's Silver Dime. '47 was **A G**ood year after WWII. (Silver is \"argentum\" in Latin).",
         "symbol": "Ag",
-        "guid": "yW:,sx48qM"
+        "guid": "yW:,sx48qM",
+        "period": "5",
+        "group": "11"
     },
     {
         "atomic_number": "48",
@@ -381,7 +475,9 @@
         "name": "Cadmium",
         "phrase": "**CD** Caddy. The caddy holds 4 dozen (48) CDs.",
         "symbol": "Cd",
-        "guid": "LT(:oG7%au"
+        "guid": "LT(:oG7%au",
+        "period": "5",
+        "group": "12"
     },
     {
         "atomic_number": "49",
@@ -389,7 +485,9 @@
         "name": "Indium",
         "phrase": "India **In**k. 49-cent bottle.",
         "symbol": "In",
-        "guid": "yif&NlR5qA"
+        "guid": "yif&NlR5qA",
+        "period": "5",
+        "group": "13"
     },
     {
         "atomic_number": "50",
@@ -397,7 +495,9 @@
         "name": "Tin",
         "phrase": "Tin Can. Contains 50 **Sn**ails. Tin cans are made of steel sometimes covered with a thin layer of tin.",
         "symbol": "Sn",
-        "guid": "yJl`:hbH2f"
+        "guid": "yJl`:hbH2f",
+        "period": "5",
+        "group": "14"
     },
     {
         "atomic_number": "51",
@@ -405,7 +505,9 @@
         "name": "Antimony",
         "phrase": "Ant money. Taking **s**mall **b**ills ($5 and $1) to its pas**sb**ook account.",
         "symbol": "Sb",
-        "guid": "pz9Iq51AHr"
+        "guid": "pz9Iq51AHr",
+        "period": "5",
+        "group": "15"
     },
     {
         "atomic_number": "52",
@@ -413,7 +515,9 @@
         "name": "Tellurium",
         "phrase": "Deck of 52 Cards. *\"**Te**ll your\"* fortune (sounds like Tellurium).",
         "symbol": "Te",
-        "guid": "oi8AkcN2jP"
+        "guid": "oi8AkcN2jP",
+        "period": "5",
+        "group": "16"
     },
     {
         "atomic_number": "53",
@@ -421,7 +525,9 @@
         "name": "Iodine",
         "phrase": "**I**odine. Bottle costs 53 cents.",
         "symbol": "I",
-        "guid": "I.SB5)mYS$"
+        "guid": "I.SB5)mYS$",
+        "period": "5",
+        "group": "17"
     },
     {
         "atomic_number": "54",
@@ -429,7 +535,9 @@
         "name": "Xenon",
         "phrase": "Zenith television, watching \"**Xe**na\". On channel 54; a TV tube contains xenon gas.",
         "symbol": "Xe",
-        "guid": "ud.2&@sd*K"
+        "guid": "ud.2&@sd*K",
+        "period": "5",
+        "group": "18"
     },
     {
         "atomic_number": "55",
@@ -437,7 +545,9 @@
         "name": "Cesium",
         "phrase": "**C**esium **S**tandard Clock. A physi**cs** clock. It reads 5:05; time to go home.",
         "symbol": "Cs",
-        "guid": "c<:vt_dbjk"
+        "guid": "c<:vt_dbjk",
+        "period": "6",
+        "group": "1"
     },
     {
         "atomic_number": "56",
@@ -445,7 +555,9 @@
         "name": "Barium",
         "phrase": "**Ba**d Berries. Poisonous. About 5/6 of all white berries are poisonous (really). Black are usually edible.",
         "symbol": "Ba",
-        "guid": "mnvi<@k]oL"
+        "guid": "mnvi<@k]oL",
+        "period": "6",
+        "group": "2"
     },
     {
         "atomic_number": "57",
@@ -453,7 +565,9 @@
         "name": "Lanthanum",
         "phrase": "**La**ntern. 57 candlepower.",
         "symbol": "La",
-        "guid": "D]I=c>@]pG"
+        "guid": "D]I=c>@]pG",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "58",
@@ -461,7 +575,9 @@
         "name": "Cerium",
         "phrase": "**Ce**real bowl. Has 58 nutrients.",
         "symbol": "Ce",
-        "guid": "zeW0&0x^@M"
+        "guid": "zeW0&0x^@M",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "59",
@@ -469,7 +585,9 @@
         "name": "Praseodymium",
         "phrase": "**Pr**aying mantis. Eats 59 bugs.",
         "symbol": "Pr",
-        "guid": "y?pOPoXz1o"
+        "guid": "y?pOPoXz1o",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "60",
@@ -477,7 +595,9 @@
         "name": "Neodymium",
         "phrase": "**N**o **D**im Lights. Triangular sign has 60\u00b0 angles. Bright lights can bli**nd**.",
         "symbol": "Nd",
-        "guid": "p:^GuDw!`_"
+        "guid": "p:^GuDw!`_",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "61",
@@ -485,7 +605,9 @@
         "name": "Promethium",
         "phrase": "Prominent fire. Fire is needed after 6:10 **p.m.** Prometheus brought fire to mankind. The flames look like 61.",
         "symbol": "Pm",
-        "guid": "iFmxYKP&[e"
+        "guid": "iFmxYKP&[e",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "62",
@@ -493,7 +615,9 @@
         "name": "Samarium",
         "phrase": "**Sm**all samurai sword. 62 generations of use.",
         "symbol": "Sm",
-        "guid": "Jx-Km<T.8Q"
+        "guid": "Jx-Km<T.8Q",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "63",
@@ -501,7 +625,9 @@
         "name": "Europium",
         "phrase": "**Eu**ropean rope (63 feet long).",
         "symbol": "Eu",
-        "guid": "xr>t`[?[dl"
+        "guid": "xr>t`[?[dl",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "64",
@@ -509,7 +635,9 @@
         "name": "Gadolinium",
         "phrase": "Ma**gd**alene's Cattle. \"Cattle\" sounds like \"gadol\"inium. Checkerboard pattern (a checkerboard has 8x8 = 64 squares).",
         "symbol": "Gd",
-        "guid": "F1fv@)Vwi$"
+        "guid": "F1fv@)Vwi$",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "65",
@@ -517,7 +645,9 @@
         "name": "Terbium",
         "phrase": "Brigh**t b**lue turban. 65\" long.",
         "symbol": "Tb",
-        "guid": "IlEs)>$X&h"
+        "guid": "IlEs)>$X&h",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "66",
@@ -525,7 +655,9 @@
         "name": "Dysprosium",
         "phrase": "Dan**dy** disposal. Disposes garbage in 6.6 seconds.",
         "symbol": "Dy",
-        "guid": "HKGC)=)rVE"
+        "guid": "HKGC)=)rVE",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "67",
@@ -533,7 +665,9 @@
         "name": "Holmium",
         "phrase": "**Ho**me. This home has room for 6 or 7 children.",
         "symbol": "Ho",
-        "guid": "g34WPu4$NS"
+        "guid": "g34WPu4$NS",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "68",
@@ -541,7 +675,9 @@
         "name": "Erbium",
         "phrase": "H**er**b (Erbium Er). The stems and leaves form a hidden 68 in the picture.",
         "symbol": "Er",
-        "guid": "z,uU^[!q#c"
+        "guid": "z,uU^[!q#c",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "69",
@@ -549,7 +685,9 @@
         "name": "Thulium",
         "phrase": "Chris**tm**as Tulip. Red and green for Christmas. 69 kinds.",
         "symbol": "Tm",
-        "guid": "u2:+Wo%Vd%"
+        "guid": "u2:+Wo%Vd%",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "70",
@@ -557,7 +695,9 @@
         "name": "Ytterbium",
         "phrase": "Lad**yb**ug Litterbag. A litterbag (small portable trash bag), which sounds like Ytterbium, with a ladybug picture on it with 70 spots. Litterbags were popular in the '70s.",
         "symbol": "Yb",
-        "guid": "P/qGoru)M}"
+        "guid": "P/qGoru)M}",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "71",
@@ -565,7 +705,9 @@
         "name": "Lutetium",
         "phrase": "**Lu**te (Lutetium Lu). 7 Strings on 1 Lute (71).",
         "symbol": "Lu",
-        "guid": "b?F7b##;jx"
+        "guid": "b?F7b##;jx",
+        "period": "6",
+        "group": "L"
     },
     {
         "atomic_number": "72",
@@ -573,7 +715,9 @@
         "name": "Hafnium",
         "phrase": "Fait**hf**ul Half Dollar. 72 is half a gross (of 144). Also, there are 72 ounces of silver in $100 of silver halves (or quarters or dimes). The ones dated 1964 or earlier are silver.",
         "symbol": "Hf",
-        "guid": "kNs78d3ADF"
+        "guid": "kNs78d3ADF",
+        "period": "6",
+        "group": "4"
     },
     {
         "atomic_number": "73",
@@ -581,7 +725,9 @@
         "name": "Tantalum",
         "phrase": "**Ta**n **Ta**ll Man. He is 7'3\" tall basketball player.",
         "symbol": "Ta",
-        "guid": "MT5Q@mk.Qx"
+        "guid": "MT5Q@mk.Qx",
+        "period": "6",
+        "group": "5"
     },
     {
         "atomic_number": "74",
@@ -589,7 +735,9 @@
         "name": "Tungsten",
         "phrase": "**W**estinghouse light bulb. 74 **W**att, with tungsten filament. Another name for tungsten is Wolfram, which explains the abbreviation.",
         "symbol": "W",
-        "guid": "AD.KH5h{ZV"
+        "guid": "AD.KH5h{ZV",
+        "period": "6",
+        "group": "6"
     },
     {
         "atomic_number": "75",
@@ -597,7 +745,9 @@
         "name": "Rhenium",
         "phrase": "W**re**n. Visualize 75 of them on a telephone line.",
         "symbol": "Re",
-        "guid": "vVL(C&3c,^"
+        "guid": "vVL(C&3c,^",
+        "period": "6",
+        "group": "7"
     },
     {
         "atomic_number": "76",
@@ -605,7 +755,9 @@
         "name": "Osmium",
         "phrase": "**Os**trich. 7'6\" Tall. Also, its neck & head look like a \"7\" and its body like a \"6\".",
         "symbol": "Os",
-        "guid": "LKhzP-G!:V"
+        "guid": "LKhzP-G!:V",
+        "period": "6",
+        "group": "8"
     },
     {
         "atomic_number": "77",
@@ -613,7 +765,9 @@
         "name": "Iridium",
         "phrase": "**Ir**idescent Rainbow. 7 Colors in a rainbow (77). Iris was the Greek goddess of the rainbow.",
         "symbol": "Ir",
-        "guid": "Bt?)JE1cm7"
+        "guid": "Bt?)JE1cm7",
+        "period": "6",
+        "group": "9"
     },
     {
         "atomic_number": "78",
@@ -621,7 +775,9 @@
         "name": "Platinum",
         "phrase": "Platinum Record. The old kind that rotated at a speed of 78 rpm. Recorded by \"The Egy**pt**ians\". A platinum recording sold more copies than a gold, and platinum is worth more than gold.",
         "symbol": "Pt",
-        "guid": "ju:`(jJGhX"
+        "guid": "ju:`(jJGhX",
+        "period": "6",
+        "group": "10"
     },
     {
         "atomic_number": "79",
@@ -629,7 +785,9 @@
         "name": "Gold",
         "phrase": "Gold Coin. A '79 **A.U.** (Almost Uncirculated). The Latin word for gold is \"aurum\".",
         "symbol": "Au",
-        "guid": "i]D{)e^f=8"
+        "guid": "i]D{)e^f=8",
+        "period": "6",
+        "group": "11"
     },
     {
         "atomic_number": "80",
@@ -637,7 +795,9 @@
         "name": "Mercury",
         "phrase": "**H**igh-**g**rade Thermometer. Showing 80 degrees.",
         "symbol": "Hg",
-        "guid": "x#9&wujdtt"
+        "guid": "x#9&wujdtt",
+        "period": "6",
+        "group": "12"
     },
     {
         "atomic_number": "81",
@@ -645,7 +805,9 @@
         "name": "Thallium",
         "phrase": "Tallow Candle. 81. Looks like a \"1\" and sounds like \"tallow\". Used in cas**tl**es.",
         "symbol": "Tl",
-        "guid": "GCN1)I.#_U"
+        "guid": "GCN1)I.#_U",
+        "period": "6",
+        "group": "13"
     },
     {
         "atomic_number": "82",
@@ -653,7 +815,9 @@
         "name": "Lead",
         "phrase": "Lead Plumbing. Under the cu**pb**oard. 82% lead. The Latin word for lead is \"plumbum\".",
         "symbol": "Pb",
-        "guid": "vG#jj)g.KX"
+        "guid": "vG#jj)g.KX",
+        "period": "6",
+        "group": "14"
     },
     {
         "atomic_number": "83",
@@ -661,7 +825,9 @@
         "name": "Bismuth",
         "phrase": "Pepto **Bi**smol. I \"ate 3\" teaspoons of Pepto Bismol (sounds like \"83\"). Pepto Bismol contains bismuth subsalicylate.",
         "symbol": "Bi",
-        "guid": "IxjeqkJSqa"
+        "guid": "IxjeqkJSqa",
+        "period": "6",
+        "group": "15"
     },
     {
         "atomic_number": "84",
@@ -669,7 +835,9 @@
         "name": "Polonium",
         "phrase": "**Po**lo Stick. 7 dozen (84) polo sticks.",
         "symbol": "Po",
-        "guid": "GSWgDtSj-{"
+        "guid": "GSWgDtSj-{",
+        "period": "6",
+        "group": "16"
     },
     {
         "atomic_number": "85",
@@ -677,7 +845,9 @@
         "name": "Astatine",
         "phrase": "**A t**all Aster (85 petals). The flowers, stem, and leaf form an \"85\".",
         "symbol": "At",
-        "guid": "g^<s>,ml#/"
+        "guid": "g^<s>,ml#/",
+        "period": "6",
+        "group": "17"
     },
     {
         "atomic_number": "86",
@@ -685,7 +855,9 @@
         "name": "Radon",
         "phrase": "Radar wa**rn**ing. Protection for 86 miles.",
         "symbol": "Rn",
-        "guid": "gI3/[onbhH"
+        "guid": "gI3/[onbhH",
+        "period": "6",
+        "group": "18"
     },
     {
         "atomic_number": "87",
@@ -693,7 +865,9 @@
         "name": "Francium",
         "phrase": "**Fr**ance's Eiffel Tower construction started in 18**87** and finished for the World's Fair to celebrate the centennial of the French Revolution.",
         "symbol": "Fr",
-        "guid": "x8rL#sPhzx"
+        "guid": "x8rL#sPhzx",
+        "period": "7",
+        "group": "1"
     },
     {
         "atomic_number": "88",
@@ -701,7 +875,9 @@
         "name": "Radium",
         "phrase": "**Ra**dio. Piano music (88 keys) on FM 88.",
         "symbol": "Ra",
-        "guid": "hGO^*4qXiq"
+        "guid": "hGO^*4qXiq",
+        "period": "7",
+        "group": "2"
     },
     {
         "atomic_number": "89",
@@ -709,7 +885,9 @@
         "name": "Actinium",
         "phrase": "**Ac**tor. He won 89 Oscars.",
         "symbol": "Ac",
-        "guid": "gwQP;Yw(@<"
+        "guid": "gwQP;Yw(@<",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "90",
@@ -717,7 +895,9 @@
         "name": "Thorium",
         "phrase": "**Th**orn. Thorns stick out at 90\u00b0 angle.",
         "symbol": "Th",
-        "guid": "rNVJ1c*f=#"
+        "guid": "rNVJ1c*f=#",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "91",
@@ -725,7 +905,9 @@
         "name": "Protactinium",
         "phrase": "**Pa**per protractor. Measuring 91\u00b0, one degree more than a right angle. Use it to measure the angle of the thorns next to it.",
         "symbol": "Pa",
-        "guid": "nLU>xVCA2G"
+        "guid": "nLU>xVCA2G",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "92",
@@ -733,7 +915,9 @@
         "name": "Uranium",
         "phrase": "**U**ranium A-Bomb. 92 kilotons. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94.",
         "symbol": "U",
-        "guid": "tkN`X}AO#d"
+        "guid": "tkN`X}AO#d",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "93",
@@ -741,7 +925,9 @@
         "name": "Neptunium",
         "phrase": "Neptunia**n p**itchfork. Neptune's trident is 9' long with 3 prongs. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94.",
         "symbol": "Np",
-        "guid": "l&MS9[<:=&"
+        "guid": "l&MS9[<:=&",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "94",
@@ -749,7 +935,9 @@
         "name": "Plutonium",
         "phrase": "Pluto the **Pu**p. Mickey Mouse's dog. Memorize Uranus, Neptune, and Pluto (the planets in a row) for 92, 93, 94, and remember that Pluto's ears look like a \"94\".",
         "symbol": "Pu",
-        "guid": "BCPmRQicnv"
+        "guid": "BCPmRQicnv",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "95",
@@ -757,7 +945,9 @@
         "name": "Americium",
         "phrase": "**Am**erican flag. Cost $95.",
         "symbol": "Am",
-        "guid": "f{fh5^GRPa"
+        "guid": "f{fh5^GRPa",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "96",
@@ -765,7 +955,9 @@
         "name": "Curium",
         "phrase": "A**cm**e's curious curtains. For a standard 8-foot tall room (96\").",
         "symbol": "Cm",
-        "guid": "NQ^)G.5SJ7"
+        "guid": "NQ^)G.5SJ7",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "97",
@@ -773,7 +965,9 @@
         "name": "Berkelium",
         "phrase": "Ri**b k**nit Beret. '97 style. Named for Berkeley, California, where berets have been seen.",
         "symbol": "Bk",
-        "guid": "M}by*{_M@D"
+        "guid": "M}by*{_M@D",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "98",
@@ -781,7 +975,9 @@
         "name": "Californium",
         "phrase": "**C**auli-**f**lower. Remember Berkeley, California, are consecutive and that there is a 98 hidden in the cauliflower. California produces a lot of cauliflower.",
         "symbol": "Cf",
-        "guid": "ILOhA]ha@}"
+        "guid": "ILOhA]ha@}",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "99",
@@ -789,7 +985,9 @@
         "name": "Einsteinium",
         "phrase": "Einstein's **es**oteric earrings. The hidden meaning is that his theory predicts you can only go 99.999...% of the speed of light.",
         "symbol": "Es",
-        "guid": "zZGSh#{ZMh"
+        "guid": "zZGSh#{ZMh",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "100",
@@ -797,7 +995,9 @@
         "name": "Fermium",
         "phrase": "**F**ur **m**ink. \"Fur\" sounds like fermium. It cost 100 thousand dollars and is 100% real fur from mink.",
         "symbol": "Fm",
-        "guid": "mZ%6mqSAig"
+        "guid": "mZ%6mqSAig",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "101",
@@ -805,7 +1005,9 @@
         "name": "Mendelevium",
         "phrase": "Mental **M.D.**. They work on brains. Mental MDs all took Psychology 101.",
         "symbol": "Md",
-        "guid": "QRfJtm&$(I"
+        "guid": "QRfJtm&$(I",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "102",
@@ -813,7 +1015,9 @@
         "name": "Nobelium",
         "phrase": "**No** Bell. The red bar divides the picture into two parts, to remember 102.",
         "symbol": "No",
-        "guid": "kTP1qL5:Tk"
+        "guid": "kTP1qL5:Tk",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "103",
@@ -821,7 +1025,9 @@
         "name": "Lawrencium",
         "phrase": "Laurel Wreath. It has 103 leaves, and this one was also made with bu**lr**ushes.",
         "symbol": "Lr",
-        "guid": "r#,cWK65dw"
+        "guid": "r#,cWK65dw",
+        "period": "7",
+        "group": "A"
     },
     {
         "atomic_number": "104",
@@ -829,7 +1035,9 @@
         "name": "Rutherfordium",
         "phrase": "Ruth's pe**rf**ect Ford. It has 4 wheels and Ford sounds like\"four\" to remember 104. The Model T was so \"perfect\" that is was popular for many years.",
         "symbol": "Rf",
-        "guid": "bVuX6WVpQw"
+        "guid": "bVuX6WVpQw",
+        "period": "7",
+        "group": "4"
     },
     {
         "atomic_number": "105",
@@ -837,7 +1045,9 @@
         "name": "Dubnium",
         "phrase": "105 **d**eci**b**els dubstep music. The sound level in concert halls reaches 105 decibels. Dubstep sounds like dubnium, and the musical notes looks like a \"d\" and a \"b\".",
         "symbol": "Db",
-        "guid": "Pk[0YQ[hb0"
+        "guid": "Pk[0YQ[hb0",
+        "period": "7",
+        "group": "5"
     },
     {
         "atomic_number": "106",
@@ -845,7 +1055,9 @@
         "name": "Seaborgium",
         "phrase": "**S**cary cybor**g** (sounds like seaborgium). Its hexagonal eye reminds of the six in 106; its blue eye reminds of the sea.",
         "symbol": "Sg",
-        "guid": "H{;,qSsY}d"
+        "guid": "H{;,qSsY}d",
+        "period": "7",
+        "group": "6"
     },
     {
         "atomic_number": "107",
@@ -853,7 +1065,9 @@
         "name": "Bohrium",
         "phrase": "Niels **B**ohr went to **h**eaven (rhymes with 107). He got an award from the Royal Danish Academy in 1907. Clouds are the *bor*der to heaven.",
         "symbol": "Bh",
-        "guid": "f*C4x_wjNc"
+        "guid": "f*C4x_wjNc",
+        "period": "7",
+        "group": "7"
     },
     {
         "atomic_number": "113",
@@ -861,6 +1075,8 @@
         "name": "Nihonium",
         "phrase": "The Americans were pretty unlucky that the Japanese discovered this element before them. 13 is said to be an unlucky number and **N**i**h**on is another word for Japan.",
         "symbol": "Nh",
-        "guid": "TYk,P}c`I("
+        "guid": "TYk,P}c`I(",
+        "period": "7",
+        "group": "13"
     }
 ]
