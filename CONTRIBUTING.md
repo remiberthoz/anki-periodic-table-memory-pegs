@@ -73,12 +73,14 @@ history. I would suggest that you create a new Anki user for testing purposes!
 The Python script relies on the following Python modules:
 `json`, 
 `markdown2`,
+`sys`,
+`subprocess`,
 `genanki` (which is found locally in the `genanki` directory), which you
 can download with the git command `git submodule init`.
 
 The script was developed using Python version 3.
 
-If everything is in order, you can commit to the `develop` branch and push
+If everything is in order, you can commit to the `master` branch or a new one and push
 your changes to your fork, then submit a pull request (see the
 [GitHub guide](https://opensource.guide/how-to-contribute/) again).
 
@@ -86,12 +88,10 @@ your changes to your fork, then submit a pull request (see the
 
 ### Release process
 
-1. Checkout the `master` branch.
-1. Merge new features from `develop`.
+1. If necessary, merge new features into the `master` branch.
 
     **[Build]**
-1. Bump the version number in `version.txt`.
-1. Commit, and create a tag named as the version number prefixed with `v` (for *version*).
+1. Create a tag named as the new version number prefixed with `v` (for *version*).
 1. Run the `main.py` python script to create the new `.apkg` package file.
 
     **[Release to AnkiWeb]**
@@ -109,5 +109,3 @@ your changes to your fork, then submit a pull request (see the
 1. Go to the [Releases](https://github.com/remiberthoz/anki-periodic-table-memory-pegs/releases) page.
 1. Edit the release title and note.
 
-    **[Terminate release]**
-1. Merge `master` into `develop` (no fast-forward).

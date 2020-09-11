@@ -2,6 +2,8 @@
 
 import json
 import genanki
+import subprocess
+import sys
 from markdown2 import Markdown
 
 mk = Markdown()
@@ -13,7 +15,7 @@ card2 = None
 card3 = None
 card4 = None
 elements = None
-version = None
+version = subprocess.check_output(["git", "describe", "--tags"]).decode(sys.stdout.encoding).strip().replace('v', '')
 
 with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card_back.html') as CARD_BACK, \
@@ -21,8 +23,7 @@ with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card2_front.html') as CARD2, \
     open('src/templates/card3_front.html') as CARD3, \
     open('src/templates/card4_front.html') as CARD4, \
-    open('src/data.json') as DATA, \
-    open('version.txt') as VERSION:
+    open('src/data.json') as DATA:
 
         css = CSS.read()
         card_back = CARD_BACK.read()
@@ -31,7 +32,6 @@ with open('src/templates/stylesheet.css') as CSS, \
         card3 = CARD3.read()
         card4 = CARD4.read()
         elements = json.load(DATA)
-        version = VERSION.readline().strip()
 
 deck = genanki.Deck(
         deck_id=490209917,
