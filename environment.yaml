@@ -1,0 +1,5 @@
+dependencies:
+  - pip
+  - pip:
+    - markdown2
+    - -e genanki
