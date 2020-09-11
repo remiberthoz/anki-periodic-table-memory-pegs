@@ -70,13 +70,8 @@ This file is compatible with Anki, and you want to import it from here.
 **Be careful**—if you did something wrong you may break your Anki review
 history. I would suggest that you create a new Anki user for testing purposes!
 
-The Python script relies on the following Python modules:
-`json`, 
-`markdown2`,
-`sys`,
-`subprocess`,
-`genanki` (which is found locally in the `genanki` directory), which you
-can download with the git command `git submodule init`.
+The Python script relies on the Python modules which you can install with the [conda](https://docs.conda.io/en/latest/)
+`environment.yaml` file.
 
 The script was developed using Python version 3.
 
