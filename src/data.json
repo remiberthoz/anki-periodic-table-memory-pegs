@@ -1070,6 +1070,56 @@
         "group": "7"
     },
     {
+        "atomic_number": "108",
+        "media": "media/108hassium.gif",
+        "name": "Hassium",
+        "phrase": "David **H**a**s**selhoff will live to 108, and his movies are great.",
+        "symbol": "Hs",
+        "guid": "V6}qOFeeyy",
+        "period": "7",
+        "group": "8"
+    },
+    {
+        "atomic_number": "109",
+        "media": "media/109meitnerium.gif",
+        "name": "Meitnerium",
+        "phrase": "The **m**igh**t**y man could lift 109 lbs and climb **m**oun**t**ains",
+        "symbol": "Mt",
+        "guid": "Ciso8fa3rC",
+        "period": "7",
+        "group": "9"
+    },
+    {
+        "atomic_number": "110",
+        "media": "media/110darmstadtium.gif",
+        "name": "Darmstadtium",
+        "phrase": "The Nintendo **D**S can play pokemon **s**tadium for 110 hours.",
+        "symbol": "Ds",
+        "guid": "x0Bk+8}1aG",
+        "period": "7",
+        "group": "10"
+    },
+    {
+        "atomic_number": "111",
+        "media": "media/111roentgenium.gif",
+        "name": "Roentgenium",
+        "phrase": "**R**ent for **g**uests is $111 per day.",
+        "symbol": "Rg",
+        "guid": "8xWVWMU5bk",
+        "period": "7",
+        "group": "11"
+    },
+    {
+        "atomic_number": "112",
+        "media": "media/112copernicium.gif",
+        "name": "Copernicium",
+        "phrase": "Copernicus would look at **C**apricorn and 112 other constellations every **n**ight",
+        "symbol": "Cn",
+        "guid": "zJwdv9j0zN",
+        "period": "7",
+        "group": "12"
+    },
+    {
         "atomic_number": "113",
         "media": "media/113nihonium.gif",
         "name": "Nihonium",
@@ -1078,5 +1128,55 @@
         "guid": "TYk,P}c`I(",
         "period": "7",
         "group": "13"
+    },
+    {
+        "atomic_number": "114",
+        "media": "media/114flerovium.gif",
+        "name": "Flerovium",
+        "phrase": "A 114 pound bird **Fl**ew over the tree.",
+        "symbol": "Fl",
+        "guid": "8IjDDrV{cV",
+        "period": "7",
+        "group": "14"
+    },
+    {
+        "atomic_number": "115",
+        "media": "media/115moscovium.gif",
+        "name": "Moscovium",
+        "phrase": "**M**oscow **c**astle has 115 flags. The Czar plays Minecraft.",
+        "symbol": "Mc",
+        "guid": "Els1WuYOkg",
+        "period": "7",
+        "group": "15"
+    },
+    {
+        "atomic_number": "116",
+        "media": "media/116livermorium.gif",
+        "name": "Livermorium",
+        "phrase": "If you **L**ove your Li**v**er, don't drink 116 ounces of alcohol at once.",
+        "symbol": "Lv",
+        "guid": "WMsovsctlv",
+        "period": "7",
+        "group": "16"
+    },
+    {
+        "atomic_number": "117",
+        "media": "media/117Tennessine.gif",
+        "name": "Tennessine",
+        "phrase": "The 117th **T**ennis Tournament was the best ever **s**een.",
+        "symbol": "Ts",
+        "guid": "pT7K7Tfjzj",
+        "period": "7",
+        "group": "17"
+    },
+    {
+        "atomic_number": "118",
+        "media": "media/118oganesson.gif",
+        "name": "Oganesson",
+        "phrase": "Yuri **Og**anesson has published more than 118 scientific papers.",
+        "symbol": "Og",
+        "guid": "mcoy}Lx*5G",
+        "period": "7",
+        "group": "18"
     }
 ]
