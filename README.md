@@ -1,7 +1,7 @@
 # Periodic Table Memory Pegs
 
 **Chemical elements flashcard deck for [Anki](https://apps.ankiweb.net/)**,
-currently featuring the first 107 elements of the periodic table (and element 113),
+currently featuring all 118 of the periodic table,
 to help you memorize and associate name, atomic number, and symbol of
 elements.
 
@@ -46,7 +46,7 @@ import it in Anki and you're ready to go!
 Please feel free to contribute to this repo,
 here is what I would like to implement shortly:
 
-- [ ] memory pegs for the missing elements,
+- [x] memory pegs for the missing elements,
 - [x] night mode,
 - [ ] spell checking,
 
