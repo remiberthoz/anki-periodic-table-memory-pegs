@@ -14,6 +14,7 @@ card1 = None
 card2 = None
 card3 = None
 card4 = None
+card5 = None
 elements = None
 version = subprocess.check_output(["git", "describe", "--tags"]).decode(sys.stdout.encoding).strip().replace('v', '')
 
@@ -23,6 +24,7 @@ with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card2_front.html') as CARD2, \
     open('src/templates/card3_front.html') as CARD3, \
     open('src/templates/card4_front.html') as CARD4, \
+    open('src/templates/card5_front.html') as CARD5, \
     open('src/data.json') as DATA:
 
         css = CSS.read()
@@ -31,6 +33,7 @@ with open('src/templates/stylesheet.css') as CSS, \
         card2 = CARD2.read()
         card3 = CARD3.read()
         card4 = CARD4.read()
+        card5 = CARD5.read()
         elements = json.load(DATA)
 
 deck = genanki.Deck(
@@ -68,6 +71,11 @@ model = genanki.Model(
             {
                 'name': 'Card 4',
                 'qfmt': card4,
+                'afmt': card_back,
+            },
+            {
+                'name': 'Card 5',
+                'qfmt': card5,
                 'afmt': card_back,
             }
         ],
