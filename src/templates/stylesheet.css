@@ -94,14 +94,26 @@ img {
 
 .periodic-row {
   clear: both;
-	  height: 10%;
+	  height:9.09%;
 }
 
 .cell {
   float: left;
   position: relative;
-  width: 5.55%;
+  width: 5.26%;
   height: 100%;
+}
+
+.cell .head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 1px;
+    right: 1px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 7px;
+    font-family: sans-serif;
 }
 
 .element {
@@ -116,6 +128,6 @@ img {
   text-align: center;
   cursor: default;
   pointer-events: none;
-  
+
   background-color: rgba(0, 0, 0, .25);
 }
