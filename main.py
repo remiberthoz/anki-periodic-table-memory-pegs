@@ -16,7 +16,7 @@ card3 = None
 card4 = None
 card5 = None
 elements = None
-version = subprocess.check_output(["git", "describe", "--tags"]).decode(sys.stdout.encoding).strip().replace('v', '')
+version = subprocess.check_output(["git", "describe", "--tags", "--always", "--dirty"]).decode(sys.stdout.encoding).strip().replace('v', '')
 
 with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card_back.html') as CARD_BACK, \
