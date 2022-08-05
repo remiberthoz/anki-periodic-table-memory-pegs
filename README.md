@@ -1,9 +1,9 @@
 # Periodic Table Memory Pegs
 
 **Chemical elements flashcard deck for [Anki](https://apps.ankiweb.net/)**,
-currently featuring all 118 of the periodic table,
-to help you memorize and associate name, atomic number, and symbol of
-elements.
+featuring all 118 of the periodic table,
+to help you memorize and associate name, atomic number, position in the table,
+and symbol of elements.
 
 ### How it works
 
@@ -12,9 +12,8 @@ which is designed to remind you
 of the element's name, atomic number, and abbreviation.
 
 The cards in the deck will question you with one of the following:
-Picture, Name, Symbol, or Number.
-The other side of the card will display all remaining data, as well as the
-element's position in the period table.
+Picture, Name, Symbol, Number, or Position.
+The other side of the card will display all remaining data.
 There is also an explanation of how to use the pictures as memory pegs.
 
 **An example with fluorine:**
@@ -49,6 +48,7 @@ here is what I would like to implement shortly:
 - [x] memory pegs for the missing elements,
 - [x] night mode,
 - [ ] spell checking,
+- [ ] redesign of the cards, to suit all devices
 
 any other suggestions are open to discussion:
 [open a new issue](https://github.com/remiberthoz/anki-periodic-table-memory-pegs/issues)
