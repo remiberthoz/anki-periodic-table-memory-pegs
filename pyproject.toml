@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "anki-periodic-table-memory-pegs"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Vargr <sebbdk@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+genanki = "^0.13.1"
+markdown2 = "^2.4.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
