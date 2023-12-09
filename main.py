@@ -51,7 +51,7 @@ model = genanki.Model(
             {'name': 'Memory sentence'},
             {'name': 'SpecialLocation'},
             ],
-        sort_field_number=3,
+        sort_field_index=3,
         templates=[
             {
                 'name': 'Card 1',
