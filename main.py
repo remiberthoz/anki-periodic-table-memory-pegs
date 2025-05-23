@@ -20,20 +20,12 @@ version = subprocess.check_output(["git", "describe", "--tags", "--always", "--d
 
 with open('src/templates/stylesheet.css') as CSS, \
     open('src/templates/card_back.html') as CARD_BACK, \
-    open('src/templates/card1_front.html') as CARD1, \
-    open('src/templates/card2_front.html') as CARD2, \
-    open('src/templates/card3_front.html') as CARD3, \
-    open('src/templates/card4_front.html') as CARD4, \
-    open('src/templates/card5_front.html') as CARD5, \
+    open('src/templates/card_front.html') as CARD_FRONT, \
     open('src/data.json') as DATA:
 
         css = CSS.read()
         card_back = CARD_BACK.read()
-        card1 = CARD1.read()
-        card2 = CARD2.read()
-        card3 = CARD3.read()
-        card4 = CARD4.read()
-        card5 = CARD5.read()
+        card_front = CARD_FRONT.read()
         elements = json.load(DATA)
 
 deck = genanki.Deck(
@@ -51,33 +43,13 @@ model = genanki.Model(
             {'name': 'Memory sentence'},
             {'name': 'SpecialLocation'},
             ],
-        sort_field_number=3,
+        sort_field_index=2,
         templates=[
-            {
-                'name': 'Card 1',
-                'qfmt': card1,
-                'afmt': card_back,
-            },
-            {
-                'name': 'Card 2',
-                'qfmt': card2,
-                'afmt': card_back,
-            },
-            {
-                'name': 'Card 3',
-                'qfmt': card3,
-                'afmt': card_back,
-            },
-            {
-                'name': 'Card 4',
-                'qfmt': card4,
-                'afmt': card_back,
-            },
-            {
-                'name': 'Card 5',
-                'qfmt': card5,
-                'afmt': card_back,
-            }
+            {'name': 'Card 1', 'qfmt': card_front, 'afmt': card_back},
+            {'name': 'Card 2', 'qfmt': card_front, 'afmt': card_back},
+            {'name': 'Card 3', 'qfmt': card_front, 'afmt': card_back},
+            {'name': 'Card 4', 'qfmt': card_front, 'afmt': card_back},
+            {'name': 'Card 5', 'qfmt': card_front, 'afmt': card_back},
         ],
         css=css)
 
@@ -95,11 +67,11 @@ for elt in elements:
     phrase_html = mk.convert(phrase)
 
     medias.append('src/{}'.format(media))
-    media_html = '<IMG SRC="{}">'.format(media.split('/')[-1])
+    media_src = media.split('/')[-1]
 
     note = genanki.Note(
             model=model,
-            fields=[media_html, name, number, symbol, phrase_html, ''],
+            fields=[media_src, name, number, symbol, phrase_html, ''],
             tags=[f'period:{period}', f'group:{group}'])
     note.guid = guid
 
