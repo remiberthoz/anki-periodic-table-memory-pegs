@@ -1,133 +1,987 @@
-.card {
-    font-family: "Roboto";
+:root {
+  --main-bg: #e3e3e3;
+  --main-fg: #292929;
+  --picture-bg: initial;
+  --hl-bg: #f3ddaf;
+  --border-fg: #bbc;
+  --strong-border-fg: #777;
+  --very-strong-border-fg: #555;
+  --element-s-block: #ff9999;
+  --element-p-block: #fdff8c;
+  --element-d-block: #99ccff;
+  --element-f-block: #9bff99;
+  --block-ref-bg: #bbb;
+  --block-ref-fg: #666;
+  --card-shadow: 0.3em 0.3em 2em 0em rgba(0, 0, 0, 0.4);
+  --symbol-scale: clamp(1.8em, 5.5vw, 2.6em);
+  --pad-side: 5%;
 }
 
-.card.night_mode{
-    background-color: rgba(33, 33, 33, 1);
+.nightMode {
+  --main-bg: #333;
+  --main-fg: #ddd;
+  --picture-bg: #888;
+  --hl-bg: #20372a;
+  --border-fg: #556;
+  --strong-border-fg: #777;
+  --very-strong-border-fg: #eaeaea;
+  --element-s-block: #ff7979;
+  --element-p-block: #b9a152;
+  --element-d-block: #77aaff;
+  --element-f-block: #7bff89;
+  --block-ref-bg: #bbb;
+  --block-ref-fg: #666;
+  --card-shadow: 0.3em 0.3em 2em 0em rgba(255, 255, 255, 0.1);
 }
 
-.picture {
-    height: 100px;
-    width: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.7);
-    margin-bottom: 10px;
-    display: inline-block;
-    vertical-align: middle;
+.android .nightMode {
+  /* For some reason, the white shadow is rendered very dimly on Android, so we must make
+   * it a bit more intense. */
+  --card-shadow: 0.3em 0.3em 2em 0em rgba(255, 255, 255, 0.3);
 }
-img {
-    height: 100px;
-    width: 100px;
+
+html,
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  margin: 0 !important; /* Remove margin on mobile devices; we have our own. */
+}
+
+/*
+ * Type of cards:
+ *
+ * - Card 1: Picture
+ * - Card 2: Atomic number
+ * - Card 3: Symbol
+ * - Card 4: Name
+ * - Card 5: Position on the periodic table
+ */
+
+.picture,
+.atomic,
+.answer-symbol,
+.answer-name,
+.description {
+  visibility: hidden;
+}
+
+.card1 .picture,
+.card2 .atomic,
+.card3 .answer-symbol,
+.card4 .answer-name,
+.back .picture,
+.back .atomic,
+.back .answer-symbol,
+.back .answer-name,
+.back .description {
+  visibility: inherit;
+}
+
+.card5 .element-selected,
+.back .element-selected {
+  border: 2px solid var(--very-strong-border-fg);
+  filter: saturate(400%) brightness(100%) contrast(100%);
 }
 
 .box {
-    width: 320px;
-    height: 350px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    margin: auto;
-}
+  /* Position on the Anki card. */
+  width: 100%;
+  max-width: clamp(30em, 120vh, 50em);
+  margin: 1em auto 1em auto;
 
-.night_mode .box {
-    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, .5), 0 3px 1px -2px rgba(255, 255, 255, .2), 0 1px 5px 0 rgba(255, 255, 255, .5);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 0.6fr 0.6fr;
+  background: var(--main-bg);
+  color: var(--main-fg);
+  font-family: sans;
+  border: solid 1px var(--border-fg);
+  border-radius: 1em;
+  box-shadow: var(--card-shadow);
+  -webkit-box-shadow: var(--card-shadow);
 }
-
-.box_title {
-    background: #ffecb3;
-    padding: 16px;
-    text-align: center;
-}
-
-.night_mode .box_title{
-   background: #888;
-}
-
-.box_title_text {
-    color: rgba(0, 0, 0, 1);
-    font-size: 24px;
-    font-weight: 300;
-    margin: 0;
-    min-height: 35px;
-}
-
-.night_mode .box_title_text{
-   color: #FFFFFF;
-}
-
-.night_mode .box_title_text sub{
-   color: #FFFFFF;
-}
-
-.box_title_text sub {
-    color: rgba(0, 0, 0, 0.7);
-}
-.box_text {
-    color: rgba(0, 0, 0, .5);
-    font-size: 1rem;
-    line-height: 18px;
-    overflow: hidden;
-    padding: 16px;
-    width: 90%
-}
-
-.box_text h2 {
-    margin: 0 0 10px 0;
-    color: rgba(0, 0, 0, .7);
-    font-family: "Roboto Slab";
-}
-
-.night_mode .box_text {
-    color: rgba(255, 255, 255, .7);
-}
-
-.night_mode .box_text h2 {
-    color: rgba(255, 255, 255, .9);
-}
-
 
 .periodic {
-  display: inline-block;
-  height: 95px;
-  width: 180px;
-  margin-right: -1px;
-  text-shadow: none;
-  vertical-align: middle;
+  /* Position on the card */
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 4;
+
+  display: grid;
+  align-self: center;
+  aspect-ratio: 2 / 1;
+  padding: var(--pad-side) calc(var(--pad-side) / 2) var(--pad-side)
+    var(--pad-side);
+  justify-content: center;
+  grid-gap: 0.5%;
+  grid-template-columns:
+    1fr /* For row numbers */
+    repeat(2, 1fr) /* First 2 columns */
+    0.7fr /* f-block placeholder */
+    repeat(16, 1fr); /* Last 16 columns */
+  grid-template-rows:
+    1fr /* For column numbers */
+    repeat(7, 1fr) /* Main table */
+    0.6fr /* Spacing */
+    repeat(2, 1fr); /* f-block */
 }
 
-.periodic-row {
-  clear: both;
-	  height:9.09%;
+.element-s-block {
+  background: var(--element-s-block);
 }
 
-.cell {
-  float: left;
-  position: relative;
-  width: 5.26%;
-  height: 100%;
+.element-d-block {
+  background: var(--element-d-block);
 }
 
-.cell .head {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 1px;
-    right: 1px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 7px;
-    font-family: sans-serif;
+.element-p-block {
+  background: var(--element-p-block);
+}
+
+.element-f-block {
+  background: var(--element-f-block);
 }
 
 .element {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 1px;
-  right: 1px;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 4px rgba(255,255,255,0.5);
-  border: 1px solid rgba(0,0,0,0.05);
-  text-align: center;
-  cursor: default;
-  pointer-events: none;
+  /* Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-color: rgba(0, 0, 0, .25);
+  border: 1px solid var(--strong-border-fg);
+  border-radius: 4px;
+  font-size: clamp(0.5em, 1.6vmin, 0.9em);
+  font-weight: bold;
+  filter: brightness(130%) contrast(80%);
+}
+
+.number {
+  /* Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: clamp(0.5em, 1.4vmin, 0.8em);
+  font-weight: bold;
+  color: var(--main-fg);
+  filter: opacity(50%);
+}
+
+.row-1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+.row-2 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.row-3 {
+  grid-row: 4;
+  grid-column: 1;
+}
+.row-4 {
+  grid-row: 5;
+  grid-column: 1;
+}
+.row-5 {
+  grid-row: 6;
+  grid-column: 1;
+}
+.row-6 {
+  grid-row: 7;
+  grid-column: 1;
+}
+.row-7 {
+  grid-row: 8;
+  grid-column: 1;
+}
+
+.col-1 {
+  grid-row: 1;
+  grid-column: 2;
+}
+.col-2 {
+  grid-row: 1;
+  grid-column: 3;
+}
+.col-3 {
+  grid-row: 1;
+  grid-column: 5;
+}
+.col-4 {
+  grid-row: 1;
+  grid-column: 6;
+}
+.col-5 {
+  grid-row: 1;
+  grid-column: 7;
+}
+.col-6 {
+  grid-row: 1;
+  grid-column: 8;
+}
+.col-7 {
+  grid-row: 1;
+  grid-column: 9;
+}
+.col-8 {
+  grid-row: 1;
+  grid-column: 10;
+}
+.col-9 {
+  grid-row: 1;
+  grid-column: 11;
+}
+.col-10 {
+  grid-row: 1;
+  grid-column: 12;
+}
+.col-11 {
+  grid-row: 1;
+  grid-column: 13;
+}
+.col-12 {
+  grid-row: 1;
+  grid-column: 14;
+}
+.col-13 {
+  grid-row: 1;
+  grid-column: 15;
+}
+.col-14 {
+  grid-row: 1;
+  grid-column: 16;
+}
+.col-15 {
+  grid-row: 1;
+  grid-column: 17;
+}
+.col-16 {
+  grid-row: 1;
+  grid-column: 18;
+}
+.col-17 {
+  grid-row: 1;
+  grid-column: 19;
+}
+.col-18 {
+  grid-row: 1;
+  grid-column: 20;
+}
+
+.element-1 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.element-2 {
+  grid-row: 2;
+  grid-column: 20;
+}
+
+.element-3 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.element-4 {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.element-5 {
+  grid-row: 3;
+  grid-column: 15;
+}
+
+.element-6 {
+  grid-row: 3;
+  grid-column: 16;
+}
+
+.element-7 {
+  grid-row: 3;
+  grid-column: 17;
+}
+
+.element-8 {
+  grid-row: 3;
+  grid-column: 18;
+}
+
+.element-9 {
+  grid-row: 3;
+  grid-column: 19;
+}
+
+.element-10 {
+  grid-row: 3;
+  grid-column: 20;
+}
+
+.element-11 {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.element-12 {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+.element-13 {
+  grid-row: 4;
+  grid-column: 15;
+}
+
+.element-14 {
+  grid-row: 4;
+  grid-column: 16;
+}
+
+.element-15 {
+  grid-row: 4;
+  grid-column: 17;
+}
+
+.element-16 {
+  grid-row: 4;
+  grid-column: 18;
+}
+
+.element-17 {
+  grid-row: 4;
+  grid-column: 19;
+}
+
+.element-18 {
+  grid-row: 4;
+  grid-column: 20;
+}
+
+.element-19 {
+  grid-row: 5;
+  grid-column: 2;
+}
+
+.element-20 {
+  grid-row: 5;
+  grid-column: 3;
+}
+
+.element-21 {
+  grid-row: 5;
+  grid-column: 5;
+}
+
+.element-22 {
+  grid-row: 5;
+  grid-column: 6;
+}
+
+.element-23 {
+  grid-row: 5;
+  grid-column: 7;
+}
+
+.element-24 {
+  grid-row: 5;
+  grid-column: 8;
+}
+
+.element-25 {
+  grid-row: 5;
+  grid-column: 9;
+}
+
+.element-26 {
+  grid-row: 5;
+  grid-column: 10;
+}
+
+.element-27 {
+  grid-row: 5;
+  grid-column: 11;
+}
+
+.element-28 {
+  grid-row: 5;
+  grid-column: 12;
+}
+
+.element-29 {
+  grid-row: 5;
+  grid-column: 13;
+}
+
+.element-30 {
+  grid-row: 5;
+  grid-column: 14;
+}
+
+.element-31 {
+  grid-row: 5;
+  grid-column: 15;
+}
+
+.element-32 {
+  grid-row: 5;
+  grid-column: 16;
+}
+
+.element-33 {
+  grid-row: 5;
+  grid-column: 17;
+}
+
+.element-34 {
+  grid-row: 5;
+  grid-column: 18;
+}
+
+.element-35 {
+  grid-row: 5;
+  grid-column: 19;
+}
+
+.element-36 {
+  grid-row: 5;
+  grid-column: 20;
+}
+
+.element-37 {
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.element-38 {
+  grid-row: 6;
+  grid-column: 3;
+}
+
+.element-39 {
+  grid-row: 6;
+  grid-column: 5;
+}
+
+.element-40 {
+  grid-row: 6;
+  grid-column: 6;
+}
+
+.element-41 {
+  grid-row: 6;
+  grid-column: 7;
+}
+
+.element-42 {
+  grid-row: 6;
+  grid-column: 8;
+}
+
+.element-43 {
+  grid-row: 6;
+  grid-column: 9;
+}
+
+.element-44 {
+  grid-row: 6;
+  grid-column: 10;
+}
+
+.element-45 {
+  grid-row: 6;
+  grid-column: 11;
+}
+
+.element-46 {
+  grid-row: 6;
+  grid-column: 12;
+}
+
+.element-47 {
+  grid-row: 6;
+  grid-column: 13;
+}
+
+.element-48 {
+  grid-row: 6;
+  grid-column: 14;
+}
+
+.element-49 {
+  grid-row: 6;
+  grid-column: 15;
+}
+
+.element-50 {
+  grid-row: 6;
+  grid-column: 16;
+}
+
+.element-51 {
+  grid-row: 6;
+  grid-column: 17;
+}
+
+.element-52 {
+  grid-row: 6;
+  grid-column: 18;
+}
+
+.element-53 {
+  grid-row: 6;
+  grid-column: 19;
+}
+
+.element-54 {
+  grid-row: 6;
+  grid-column: 20;
+}
+
+.element-55 {
+  grid-row: 7;
+  grid-column: 2;
+}
+
+.element-56 {
+  grid-row: 7;
+  grid-column: 3;
+}
+
+.lanthanide-placeholder {
+  grid-row: 7;
+  grid-column: 4;
+}
+
+.element-71 {
+  grid-row: 7;
+  grid-column: 5;
+}
+
+.element-72 {
+  grid-row: 7;
+  grid-column: 6;
+}
+
+.element-73 {
+  grid-row: 7;
+  grid-column: 7;
+}
+
+.element-74 {
+  grid-row: 7;
+  grid-column: 8;
+}
+
+.element-75 {
+  grid-row: 7;
+  grid-column: 9;
+}
+
+.element-76 {
+  grid-row: 7;
+  grid-column: 10;
+}
+
+.element-77 {
+  grid-row: 7;
+  grid-column: 11;
+}
+
+.element-78 {
+  grid-row: 7;
+  grid-column: 12;
+}
+
+.element-79 {
+  grid-row: 7;
+  grid-column: 13;
+}
+
+.element-80 {
+  grid-row: 7;
+  grid-column: 14;
+}
+
+.element-81 {
+  grid-row: 7;
+  grid-column: 15;
+}
+
+.element-82 {
+  grid-row: 7;
+  grid-column: 16;
+}
+
+.element-83 {
+  grid-row: 7;
+  grid-column: 17;
+}
+
+.element-84 {
+  grid-row: 7;
+  grid-column: 18;
+}
+
+.element-85 {
+  grid-row: 7;
+  grid-column: 19;
+}
+
+.element-86 {
+  grid-row: 7;
+  grid-column: 20;
+}
+
+.element-87 {
+  grid-row: 8;
+  grid-column: 2;
+}
+
+.element-88 {
+  grid-row: 8;
+  grid-column: 3;
+}
+
+.actinide-placeholder {
+  grid-row: 8;
+  grid-column: 4;
+}
+
+.element-103 {
+  grid-row: 8;
+  grid-column: 5;
+}
+
+.element-104 {
+  grid-row: 8;
+  grid-column: 6;
+}
+
+.element-105 {
+  grid-row: 8;
+  grid-column: 7;
+}
+
+.element-106 {
+  grid-row: 8;
+  grid-column: 8;
+}
+
+.element-107 {
+  grid-row: 8;
+  grid-column: 9;
+}
+
+.element-108 {
+  grid-row: 8;
+  grid-column: 10;
+}
+
+.element-109 {
+  grid-row: 8;
+  grid-column: 11;
+}
+
+.element-110 {
+  grid-row: 8;
+  grid-column: 12;
+}
+
+.element-111 {
+  grid-row: 8;
+  grid-column: 13;
+}
+
+.element-112 {
+  grid-row: 8;
+  grid-column: 14;
+}
+
+.element-113 {
+  grid-row: 8;
+  grid-column: 15;
+}
+
+.element-114 {
+  grid-row: 8;
+  grid-column: 16;
+}
+
+.element-115 {
+  grid-row: 8;
+  grid-column: 17;
+}
+
+.element-116 {
+  grid-row: 8;
+  grid-column: 18;
+}
+
+.element-117 {
+  grid-row: 8;
+  grid-column: 19;
+}
+
+.element-118 {
+  grid-row: 8;
+  grid-column: 20;
+}
+
+.lanthanide-header {
+  grid-row: 10;
+  grid-column: 4;
+}
+
+.element-57 {
+  grid-row: 10;
+  grid-column: 5;
+}
+
+.element-58 {
+  grid-row: 10;
+  grid-column: 6;
+}
+
+.element-59 {
+  grid-row: 10;
+  grid-column: 7;
+}
+
+.element-60 {
+  grid-row: 10;
+  grid-column: 8;
+}
+
+.element-61 {
+  grid-row: 10;
+  grid-column: 9;
+}
+
+.element-62 {
+  grid-row: 10;
+  grid-column: 10;
+}
+
+.element-63 {
+  grid-row: 10;
+  grid-column: 11;
+}
+
+.element-64 {
+  grid-row: 10;
+  grid-column: 12;
+}
+
+.element-65 {
+  grid-row: 10;
+  grid-column: 13;
+}
+
+.element-66 {
+  grid-row: 10;
+  grid-column: 14;
+}
+
+.element-67 {
+  grid-row: 10;
+  grid-column: 15;
+}
+
+.element-68 {
+  grid-row: 10;
+  grid-column: 16;
+}
+
+.element-69 {
+  grid-row: 10;
+  grid-column: 17;
+}
+
+.element-70 {
+  grid-row: 10;
+  grid-column: 18;
+}
+
+.actinide-header {
+  grid-row: 11;
+  grid-column: 4;
+}
+
+.element-89 {
+  grid-row: 11;
+  grid-column: 5;
+}
+
+.element-90 {
+  grid-row: 11;
+  grid-column: 6;
+}
+
+.element-91 {
+  grid-row: 11;
+  grid-column: 7;
+}
+
+.element-92 {
+  grid-row: 11;
+  grid-column: 8;
+}
+
+.element-93 {
+  grid-row: 11;
+  grid-column: 9;
+}
+
+.element-94 {
+  grid-row: 11;
+  grid-column: 10;
+}
+
+.element-95 {
+  grid-row: 11;
+  grid-column: 11;
+}
+
+.element-96 {
+  grid-row: 11;
+  grid-column: 12;
+}
+
+.element-97 {
+  grid-row: 11;
+  grid-column: 13;
+}
+
+.element-98 {
+  grid-row: 11;
+  grid-column: 14;
+}
+
+.element-99 {
+  grid-row: 11;
+  grid-column: 15;
+}
+
+.element-100 {
+  grid-row: 11;
+  grid-column: 16;
+}
+
+.element-101 {
+  grid-row: 11;
+  grid-column: 17;
+}
+
+.element-102 {
+  grid-row: 11;
+  grid-column: 18;
+}
+
+.picture {
+  /* Position on the card */
+  grid-row: 1;
+  grid-column: 5 / span 2;
+  align-self: center;
+
+  /* Center content */
+  display: flex;
+  justify-content: center;
+
+  padding: var(--pad-side) calc(var(--pad-side) * 2) var(--pad-side)
+    var(--pad-side);
+}
+
+.img {
+  width: 100%;
+  image-rendering: pixelated; /* Remove blurriness in the Anki app. */
+  background: var(--picture-bg);
+  border-radius: 1em;
+  padding: 0.7em;
+}
+
+.symbol,
+.name {
+  border-top: 1px solid var(--border-fg);
+  border-bottom: 1px solid var(--border-fg);
+  background: var(--hl-bg);
+}
+
+.symbol {
+  /* Position on the card */
+  grid-row: 2;
+  grid-column: 1;
+
+  /* Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em 0.6em;
+
+  font-size: calc(var(--symbol-scale));
+}
+
+.element-chip {
+  /* Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(1.4 * var(--symbol-scale));
+  height: calc(1.6 * var(--symbol-scale));
+  border: 1px solid var(--strong-border-fg);
+  background-color: var(--main-bg);
+  border-radius: 0.4em;
+  padding: 0 0.1em;
+}
+
+.atomic {
+  font-size: 0.5em;
+}
+
+.answer-symbol {
+  font-weight: 500;
+}
+
+.name {
+  /* Position on the card */
+  grid-row: 2;
+  grid-column: 2 / span 5;
+
+  /* Center content */
+  display: flex;
+  align-items: center;
+
+  padding: 0.3em;
+  font-size: clamp(1.2em, 6vw, 2.3em);
+}
+
+.description {
+  /* Position on the card */
+  grid-row: 3;
+  grid-column: 1 / span 6;
+
+  padding: 0.8em;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/* Small view-ports */
+@media (max-width: 50rem) {
+  .card {
+    padding: 0;
+    margin: 0;
+  }
+  .box {
+    width: 100%;
+    max-width: initial;
+    margin: 0;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+  }
 }
