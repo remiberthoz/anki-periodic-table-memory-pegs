@@ -68,10 +68,11 @@ for elt in elements:
 
     medias.append('src/{}'.format(media))
     media_src = media.split('/')[-1]
+    media_insert = '<IMG SRC="{}">'.format(media_src)
 
     note = genanki.Note(
             model=model,
-            fields=[media_src, name, number, symbol, phrase_html, ''],
+            fields=[media_insert, name, number, symbol, phrase_html, ''],
             tags=[f'period:{period}', f'group:{group}'])
     note.guid = guid
 
