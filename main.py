@@ -68,8 +68,16 @@ for elt in elements:
 
     medias.append('src/{}'.format(media))
     media_src = media.split('/')[-1]
-    media_insert = '<IMG SRC="{}">'.format(media_src)
-
+    media_insert = '<IMG SRC="{}">'.format(media_src)  # This line is not as nice as it could, the HTML tag
+                                                       # would normally be placed in the HTML template.
+                                                       # However Anki or genanki require a complete HTML image
+                                                       # tag to *really* associate images with notes.
+                                                       # See on GitHub:
+                                                       # commit a247eb5
+                                                       # and
+                                                       # [issue #143](https://github.com/remiberthoz/anki-periodic-table-memory-pegs/issues/143)
+                                                       # and
+                                                       # [this comment from issue #140](https://github.com/remiberthoz/anki-periodic-table-memory-pegs/pull/140#issuecomment-2913382646).
     note = genanki.Note(
             model=model,
             fields=[media_insert, name, number, symbol, phrase_html, ''],
