@@ -6,8 +6,6 @@ import subprocess
 import sys
 from markdown2 import Markdown
 
-version = subprocess.check_output(['git', 'describe', '--tags', 'HEAD']).decode('ascii').strip()
-
 mk = Markdown()
 
 css = None
@@ -32,7 +30,7 @@ with open('src/templates/stylesheet.css') as CSS, \
 
 deck = genanki.Deck(
         deck_id=490209917,
-        name=f'Periodic table memory pegs ({version})')
+        name='Periodic table memory pegs')
 
 model = genanki.Model(
         model_id=1484938894779,
