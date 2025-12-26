@@ -1,2 +1,3 @@
 packages/periodic-table-memory-pegs*.apkg
 .env
+.venv
